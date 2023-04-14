@@ -4,9 +4,9 @@ name: BlueCartMarketCI
 on:
   workflow_dispatch:
   push:
-    branches: [richard]
+    branches: [main]
   pull_request:
-    branches: [richard]
+    branches: [main]
 
 # functions that will run within the workflow
 jobs:
