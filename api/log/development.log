@@ -1130,3 +1130,84 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 630ms (Views: 0.5ms | Allocations: 8828)
 
 
+Started GET "/scrape" for ::1 at 2023-04-14 14:34:19 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 656ms (Views: 0.6ms | Allocations: 8842)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 14:34:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 667ms (Views: 0.6ms | Allocations: 8733)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 14:34:23 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 686ms (Views: 0.6ms | Allocations: 8891)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 14:44:31 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 679ms (Views: 0.7ms | Allocations: 8956)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 14:44:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 688ms (Views: 0.4ms | Allocations: 8784)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 14:49:35 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 714ms (Views: 0.6ms | Allocations: 8748)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 14:49:53 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:36: syntax error, unexpected ',', expecting =>
+           result << { :title,  :price}
+                             ^
+):
+  
+app/controllers/scraper_controller.rb:36: syntax error, unexpected ',', expecting =>
+app/controllers/scraper_controller.rb:36: syntax error, unexpected ',', expecting =>
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 14:50:04 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:36: syntax error, unexpected ':', expecting =>
+           result << { :title :price}
+                              ^
+):
+  
+app/controllers/scraper_controller.rb:36: syntax error, unexpected ':', expecting =>
+app/controllers/scraper_controller.rb:36: syntax error, unexpected ':', expecting =>
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 15:12:17 +0300
+  
+NoMethodError (undefined method `scrape_jumia' for ScraperController:Class):
+  
+app/controllers/scraper_controller.rb:34:in `<class:ScraperController>'
+app/controllers/scraper_controller.rb:1:in `<top (required)>'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 15:12:51 +0300
+  
+NoMethodError (undefined method `scrape_jumia' for ScraperController:Class):
+  
+app/controllers/scraper_controller.rb:34:in `<class:ScraperController>'
+app/controllers/scraper_controller.rb:1:in `<top (required)>'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 15:18:14 +0300
+  
+NoMethodError (undefined method `scrape_jumia' for ScraperController:Class):
+  
+app/controllers/scraper_controller.rb:34:in `<class:ScraperController>'
+app/controllers/scraper_controller.rb:1:in `<top (required)>'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 15:19:33 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 685ms (Views: 1.0ms | Allocations: 8977)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 15:20:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 541ms (Views: 0.5ms | Allocations: 8744)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 15:20:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 726ms (Views: 1.3ms | Allocations: 8732)
+
+

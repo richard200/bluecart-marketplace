@@ -8,7 +8,7 @@ function PhoneList() {
       const response = await fetch('http://localhost:3000/scrape');
      
       const data = await response.json();
-      console.log(data.jumia);
+      console.log(typeof data.jumia);
       setProducts(data.jumia);
       // console.log(setProducts);
     }
