@@ -1,11 +1,15 @@
 import { Routes, Route } from "react-router-dom";
  import Register from "./components/Register";
-import Home from "./components/Home";
+import Product from "./components/Product";
 function App() {
   return (
     <div>
      
-        <Register/>
+        <Product/>
+
+
+
+        
         
        
    
