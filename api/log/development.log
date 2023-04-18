@@ -1211,3 +1211,2546 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 726ms (Views: 1.3ms | Allocations: 8732)
 
 
+Started GET "/scrape" for ::1 at 2023-04-14 20:37:58 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 719ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 42731)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 20:37:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 650ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 9028)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:48:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 890ms (Views: 0.5ms | Allocations: 2475)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:49:07 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 945ms (Views: 0.4ms | Allocations: 2315)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:50:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 591ms (Views: 1.1ms | Allocations: 2803)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:50:35 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3256ms (Views: 0.6ms | Allocations: 2450)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:51:35 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 934ms (Views: 0.3ms | Allocations: 2772)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:52:19 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 683ms (Views: 0.4ms | Allocations: 2791)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:53:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1639ms (Views: 0.4ms | Allocations: 2783)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:54:54 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 652ms (Views: 0.2ms | Allocations: 2388)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:55:55 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 630ms (Views: 0.3ms | Allocations: 2511)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:56:07 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 697ms (Views: 0.3ms | Allocations: 2499)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:58:41 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 643ms (Views: 0.6ms | Allocations: 2416)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 20:58:57 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 558ms (Views: 0.4ms | Allocations: 2409)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:05:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 644ms (Views: 0.2ms | Allocations: 2700)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:10:10 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 665ms (Views: 0.7ms | Allocations: 2476)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:10:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 651ms (Views: 1.0ms | Allocations: 2303)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:10:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 638ms (Views: 0.2ms | Allocations: 2614)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:11:07 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 534ms (Views: 0.5ms | Allocations: 2500)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:11:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 610ms (Views: 0.2ms | Allocations: 2688)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:12:38 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 835ms (Views: 0.2ms | Allocations: 2522)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:13:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2090ms (Views: 1.1ms | Allocations: 2584)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:19:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 642ms (Views: 0.5ms | Allocations: 2612)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:20:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2085ms (Views: 1.2ms | Allocations: 5164)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:21:05 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1782ms (Views: 1.0ms | Allocations: 4991)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:21:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1686ms (Views: 0.7ms | Allocations: 5004)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:22:22 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3130ms (Views: 1.2ms | Allocations: 14637)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:22:25 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2396ms (Views: 2.6ms | Allocations: 13603)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-14 21:22:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2378ms (Views: 1.3ms | Allocations: 13694)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:22 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2523ms (Views: 5.0ms | Allocations: 13718)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:25 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3652ms (Views: 2.1ms | Allocations: 15281)
+
+
+Completed 200 OK in 2757ms (Views: 5.6ms | Allocations: 21562)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:31 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2595ms (Views: 2.0ms | Allocations: 13579)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2898ms (Views: 1.6ms | Allocations: 13605)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:55 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2578ms (Views: 1.4ms | Allocations: 13837)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:23:58 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2944ms (Views: 1.6ms | Allocations: 13610)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:24:09 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2823ms (Views: 7.2ms | Allocations: 14538)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:24:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2706ms (Views: 1.9ms | Allocations: 14688)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:24:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2389ms (Views: 2.5ms | Allocations: 13730)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:38:27 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2694ms (Views: 0.8ms | Allocations: 13740)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:38:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2735ms (Views: 3.4ms | Allocations: 14534)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:38:40 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2675ms (Views: 2.3ms | Allocations: 13608)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:38:57 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2542ms (Views: 1.3ms | Allocations: 13687)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:39:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3002ms (Views: 0.7ms | Allocations: 13636)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 7349ms (Views: 1.0ms | Allocations: 13685)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3306ms (Views: 1.3ms | Allocations: 13630)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:24 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2814ms (Views: 1.5ms | Allocations: 13576)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2796ms (Views: 3.6ms | Allocations: 13648)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:39 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2647ms (Views: 1.3ms | Allocations: 14561)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2674ms (Views: 1.5ms | Allocations: 14595)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:50 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 7582ms (Views: 6.4ms | Allocations: 13645)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:40:57 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2664ms (Views: 2.4ms | Allocations: 13701)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:41:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2725ms (Views: 1.3ms | Allocations: 13779)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:41:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2230ms (Views: 0.8ms | Allocations: 13741)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:41:36 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2404ms (Views: 1.2ms | Allocations: 13600)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:41:39 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2374ms (Views: 1.4ms | Allocations: 14667)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:41:41 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2429ms (Views: 1.2ms | Allocations: 13626)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:42:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2478ms (Views: 4.6ms | Allocations: 13680)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:42:40 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2622ms (Views: 5.9ms | Allocations: 13734)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:42:53 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2757ms (Views: 2.7ms | Allocations: 13634)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:42:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2815ms (Views: 3.0ms | Allocations: 14609)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:42:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3075ms (Views: 0.7ms | Allocations: 13666)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:43:05 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5109ms (Views: 1.6ms | Allocations: 14630)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:43:10 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2804ms (Views: 2.2ms | Allocations: 13615)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:43:23 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2853ms (Views: 2.3ms | Allocations: 13652)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2669ms (Views: 2.1ms | Allocations: 13633)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:05 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2746ms (Views: 1.8ms | Allocations: 13701)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:13 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3041ms (Views: 2.6ms | Allocations: 14585)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:28 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3031ms (Views: 6.4ms | Allocations: 13690)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:31 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2632ms (Views: 0.9ms | Allocations: 14574)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2598ms (Views: 0.9ms | Allocations: 13739)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:50 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3036ms (Views: 1.3ms | Allocations: 13759)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:44:53 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2589ms (Views: 1.7ms | Allocations: 13588)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:45:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2436ms (Views: 2.3ms | Allocations: 13686)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:45:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2333ms (Views: 1.6ms | Allocations: 13647)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:45:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2324ms (Views: 0.9ms | Allocations: 13694)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:46:18 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-14 21:46:19 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2675ms (Views: 0.8ms | Allocations: 15434)
+
+
+Completed 200 OK in 2529ms (Views: 1.6ms | Allocations: 27141)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:46:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2526ms (Views: 0.8ms | Allocations: 14673)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:47:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3280ms (Views: 1.8ms | Allocations: 13647)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:47:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2874ms (Views: 1.3ms | Allocations: 13611)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:47:40 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2525ms (Views: 1.0ms | Allocations: 13665)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:47:54 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2479ms (Views: 1.0ms | Allocations: 13866)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:48:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2716ms (Views: 2.4ms | Allocations: 13646)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:48:09 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2601ms (Views: 2.2ms | Allocations: 13684)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:48:47 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2650ms (Views: 2.7ms | Allocations: 14744)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:48:57 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2987ms (Views: 1.3ms | Allocations: 13640)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:49:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2578ms (Views: 1.7ms | Allocations: 13649)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:49:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3395ms (Views: 2.6ms | Allocations: 13589)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:49:11 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2954ms (Views: 0.7ms | Allocations: 13702)
+
+
+Started GET "/scrape" for ::1 at 2023-04-14 21:49:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2467ms (Views: 1.5ms | Allocations: 14639)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 08:26:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4085ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 48005)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 08:26:33 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2550ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 13664)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 09:40:31 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 10213ms (Views: 3.8ms | Allocations: 14377)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 09:40:41 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (Allocations: 224)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:42:23 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (Allocations: 226)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:42:33 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 223)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:42:50 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 16696ms (Allocations: 4218)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:25:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:45:58 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3703ms (Views: 3.4ms | Allocations: 20096)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 09:46:19 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 12093ms (Allocations: 4128)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:25:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:46:31 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10012ms (Allocations: 219)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:48:43 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 218)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:48:53 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10009ms (Allocations: 219)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:49:03 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-17 09:49:07 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10008ms (Allocations: 886)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Completed 500 Internal Server Error in 10010ms (Allocations: 16542)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:49:17 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10008ms (Allocations: 219)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:50:01 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (Allocations: 207)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:52:06 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:50: syntax error, unexpected ':', expecting '}'
+...tle => title, :price => price :image => image }
+...                              ^
+):
+  
+app/controllers/scraper_controller.rb:50: syntax error, unexpected ':', expecting '}'
+app/controllers/scraper_controller.rb:50: syntax error, unexpected ':', expecting '}'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:53:20 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 226)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:56:14 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2588ms (Allocations: 3135)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:46:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:44:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 09:56:17 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15011ms (Allocations: 238)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:57:05 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15015ms (Allocations: 229)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 09:58:04 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10067ms (ActiveRecord: 0.0ms | Allocations: 33655)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:01:33 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 4627ms (ActiveRecord: 0.0ms | Allocations: 12123)
+
+
+  
+NameError (undefined local variable or method `image' for #<ScraperController:0x000000000039d0>):
+  
+app/controllers/scraper_controller.rb:32:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:27:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:01:56 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (Allocations: 234)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:07:14 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-17 10:07:34 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10013ms (ActiveRecord: 0.0ms | Allocations: 4669)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Completed 500 Internal Server Error in 31818ms (ActiveRecord: 0.0ms | Allocations: 55323)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:25:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:10:31 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (ActiveRecord: 0.0ms | Allocations: 211)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:13:07 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 17611ms (Allocations: 4153)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:25:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:17:48 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15014ms (Allocations: 232)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:21:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4832ms (Views: 2.6ms | Allocations: 14026)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 10:21:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4464ms (Views: 16.2ms | Allocations: 13456)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 10:21:25 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4165ms (Views: 10.3ms | Allocations: 13488)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 10:22:09 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15014ms (Allocations: 240)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:22:25 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 219)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:42:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:23:28 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 3055ms (Allocations: 3100)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:46:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:44:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:23:31 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2158ms (Allocations: 3099)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:46:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:44:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:26:14 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2484ms (Allocations: 3052)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:46:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:44:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:26:17 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2456ms (Allocations: 3079)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:46:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:44:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 10:27:13 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4662ms (Views: 24.4ms | Allocations: 13445)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 10:27:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3932ms (Views: 8.0ms | Allocations: 13426)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:38:54 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2619ms (Allocations: 3083)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:46:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:44:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:46:07 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 7586ms (Allocations: 3093)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:47:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:45:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:46:51 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5062ms (Views: 10.0ms | Allocations: 10672)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:48:08 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 3080ms (Allocations: 3164)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:50:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:45:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:48:40 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3668ms (Views: 11.7ms | Allocations: 10995)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:51:33 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4751ms (Views: 12.6ms | Allocations: 11259)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:55:20 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 5487ms (Allocations: 11785)
+
+
+  
+NameError (undefined local variable or method `src' for #<ScraperController:0x000000000090b0>):
+  
+app/controllers/scraper_controller.rb:29:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:28:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:55:57 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 15321ms (Views: 8.0ms | Allocations: 11309)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:56:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3903ms (Views: 7.0ms | Allocations: 11222)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:57:06 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 3150ms (Allocations: 3149)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:50:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:45:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 10:57:34 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3954ms (Views: 9.0ms | Allocations: 11317)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 10:58:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3786ms (Views: 10.5ms | Allocations: 11034)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 10:58:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4429ms (Views: 18.6ms | Allocations: 11252)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:01:16 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4514ms (Views: 1.4ms | Allocations: 11567)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:02:53 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2593ms (Allocations: 3668)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:50:in `block in scrape_kilimall'
+app/controllers/scraper_controller.rb:45:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:03:12 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1798ms (Views: 0.4ms | Allocations: 5816)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:05:37 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2657ms (Views: 0.1ms | Allocations: 3293)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:07:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2065ms (Views: 0.5ms | Allocations: 5991)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:07:48 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1804ms (Views: 1.0ms | Allocations: 6031)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:08:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2691ms (Views: 0.8ms | Allocations: 6052)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:08:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4589ms (Views: 2.0ms | Allocations: 11533)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:10:23 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4350ms (Views: 6.1ms | Allocations: 11645)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:10:55 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3527ms (Views: 1.4ms | Allocations: 16508)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:11:41 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4840ms (Views: 1.4ms | Allocations: 16510)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:11:48 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3775ms (Views: 4.8ms | Allocations: 16457)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:11:54 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3228ms (Views: 3.9ms | Allocations: 16526)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4483ms (Views: 2.2ms | Allocations: 16196)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3217ms (Views: 1.0ms | Allocations: 16109)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:23 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3616ms (Views: 2.0ms | Allocations: 16376)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3345ms (Views: 1.5ms | Allocations: 16549)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3724ms (Views: 1.1ms | Allocations: 16464)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3744ms (Views: 2.4ms | Allocations: 17641)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3350ms (Views: 2.1ms | Allocations: 16529)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:12:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3100ms (Views: 5.6ms | Allocations: 16229)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3534ms (Views: 4.4ms | Allocations: 16472)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3127ms (Views: 6.0ms | Allocations: 16519)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:09 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3722ms (Views: 6.2ms | Allocations: 16032)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2933ms (Views: 2.9ms | Allocations: 16240)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3408ms (Views: 2.1ms | Allocations: 16267)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:23 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2951ms (Views: 1.9ms | Allocations: 16397)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3067ms (Views: 3.0ms | Allocations: 16370)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3127ms (Views: 2.5ms | Allocations: 16172)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2948ms (Views: 2.5ms | Allocations: 16490)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:35 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2870ms (Views: 3.4ms | Allocations: 16428)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:38 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3624ms (Views: 1.3ms | Allocations: 16478)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:42 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-17 11:13:45 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3135ms (Views: 1.8ms | Allocations: 17043)
+
+
+Completed 200 OK in 3131ms (Views: 2.1ms | Allocations: 26422)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:16:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 8613ms (Views: 1.7ms | Allocations: 16288)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4074ms (Views: 3.2ms | Allocations: 17633)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:12 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3393ms (Views: 1.9ms | Allocations: 16429)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:15 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3082ms (Views: 4.9ms | Allocations: 16507)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3108ms (Views: 1.0ms | Allocations: 16263)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:22 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3332ms (Views: 4.0ms | Allocations: 17607)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:25 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3368ms (Views: 1.4ms | Allocations: 16236)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3323ms (Views: 1.3ms | Allocations: 17812)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:17:33 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2984ms (Views: 1.1ms | Allocations: 16350)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3473ms (Views: 2.2ms | Allocations: 17670)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2763ms (Views: 1.0ms | Allocations: 16559)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:07 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3377ms (Views: 2.2ms | Allocations: 17865)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2953ms (Views: 1.0ms | Allocations: 16533)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3494ms (Views: 4.0ms | Allocations: 16177)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:39 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3654ms (Views: 4.7ms | Allocations: 16465)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3693ms (Views: 3.0ms | Allocations: 16298)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3590ms (Views: 3.6ms | Allocations: 16311)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:18:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3322ms (Views: 2.2ms | Allocations: 16480)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:19:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3513ms (Views: 3.5ms | Allocations: 16522)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:19:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3849ms (Views: 1.4ms | Allocations: 16429)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:19:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3107ms (Views: 3.1ms | Allocations: 17677)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:23:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5051ms (Views: 1.1ms | Allocations: 16484)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:23:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3268ms (Views: 1.0ms | Allocations: 16297)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:23:34 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3139ms (Views: 1.6ms | Allocations: 16431)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:24:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3744ms (Views: 5.0ms | Allocations: 17572)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:24:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3181ms (Views: 1.6ms | Allocations: 16496)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:37:34 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2306ms (Views: 1.9ms | Allocations: 12112)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:43:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2008ms (Views: 0.3ms | Allocations: 5654)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:48:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 7080ms (Views: 0.3ms | Allocations: 5699)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:49:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1042ms (Views: 0.3ms | Allocations: 4453)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:50:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 925ms (Views: 0.4ms | Allocations: 4498)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:51:38 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 6096ms (Views: 0.2ms | Allocations: 4361)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 11:59:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1657ms (Views: 1.6ms | Allocations: 11464)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 11:59:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3750ms (Views: 2.0ms | Allocations: 15207)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:00:00 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2719ms (Views: 1.8ms | Allocations: 15086)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:04:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3813ms (Views: 1.1ms | Allocations: 15304)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:04:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2823ms (Views: 1.3ms | Allocations: 15325)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:05:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2596ms (Views: 3.3ms | Allocations: 15379)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:05:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3075ms (Views: 3.6ms | Allocations: 15412)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:05:08 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 8867ms (Views: 2.9ms | Allocations: 15250)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:05:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3653ms (Views: 1.4ms | Allocations: 16692)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:05:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2780ms (Views: 6.4ms | Allocations: 15318)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:08:58 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 6651ms (Views: 5.1ms | Allocations: 11414)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:10:57 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10009ms (Allocations: 207)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:25:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:11:07 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1195ms (Views: 1.5ms | Allocations: 9297)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:11:42 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10012ms (Allocations: 218)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:11:52 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 219)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:12:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 8281ms (Views: 2.8ms | Allocations: 15312)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:12:36 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 8922ms (Views: 3.8ms | Allocations: 15115)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:12:45 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15016ms (Allocations: 233)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:13:14 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15014ms (Allocations: 226)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:13:29 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 219)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:14:10 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3727ms (Views: 1.3ms | Allocations: 15538)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:14:14 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15013ms (Allocations: 238)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:15:55 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3310ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 50048)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:15:58 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 15016ms (ActiveRecord: 0.0ms | Allocations: 239)
+
+
+  
+SocketError (Failed to open TCP connection to www.jamboshop.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:43:in `scrape_kilimall'
+app/controllers/scraper_controller.rb:12:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 12:16:32 +0300
+Processing by ScraperController#index as HTML
+Completed 200 OK in 8214ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 16710)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:17:34 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4032ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 16818)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:17:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2863ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 15331)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 12:17:51 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3104ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 15466)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:22:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3617ms (Views: 1.1ms | Allocations: 10505)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:31:53 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1574ms (Views: 1.9ms | Allocations: 9728)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:32:25 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 828ms (Views: 0.8ms | Allocations: 9422)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:33:10 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 739ms (Views: 1.8ms | Allocations: 9460)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:33:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 647ms (Views: 0.9ms | Allocations: 9397)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:51:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1123ms (Views: 2.3ms | Allocations: 9510)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 12:51:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 958ms (Views: 0.9ms | Allocations: 9625)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:33:21 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 3164ms (ActiveRecord: 0.0ms | Allocations: 41100)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_shopit'
+app/controllers/scraper_controller.rb:46:in `scrape_shopit'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:33:46 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1603ms (Allocations: 6798)
+
+
+  
+Nokogiri::CSS::SyntaxError (unexpected '$' after ' '):
+  
+(eval):3:in `_racc_do_parse_c'
+(eval):3:in `do_parse'
+app/controllers/scraper_controller.rb:48:in `block in scrape_shopit'
+app/controllers/scraper_controller.rb:46:in `scrape_shopit'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:34:24 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1211ms (Allocations: 7296)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_shopit'
+app/controllers/scraper_controller.rb:46:in `scrape_shopit'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:40:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2283ms (Views: 0.2ms | Allocations: 7099)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:42:09 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2315ms (Views: 0.2ms | Allocations: 6663)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:43:05 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1871ms (Views: 0.3ms | Allocations: 7043)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 14:53:39 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2154ms (Views: 0.2ms | Allocations: 7109)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 15:13:35 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 6ms (Allocations: 1686)
+
+
+  
+NoMethodError (undefined method `scrape_shopit' for #<ScraperController:0x000000000061a8>
+Did you mean?  scrape_path):
+  
+app/controllers/scraper_controller.rb:16:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 15:13:53 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 123855ms (Allocations: 1448)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout with #<TCPSocket:(closed)>):
+  
+app/controllers/scraper_controller.rb:63:in `scrape_ebay'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 16:00:10 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 62964ms (Allocations: 962)
+
+
+  
+SocketError (Failed to open TCP connection to www.ebay.com:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:63:in `scrape_ebay'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 21:00:01 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 121821ms (ActiveRecord: 0.0ms | Allocations: 34899)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout with #<TCPSocket:(closed)>):
+  
+app/controllers/scraper_controller.rb:63:in `scrape_ebay'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 21:44:28 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2092ms (Views: 0.7ms | Allocations: 3569)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 21:48:33 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1041ms (Views: 0.2ms | Allocations: 3557)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 21:53:34 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1672ms (Views: 0.3ms | Allocations: 2936)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 21:54:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3720ms (Views: 0.4ms | Allocations: 2911)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 21:55:51 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2706ms (Views: 0.8ms | Allocations: 5313)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:00:48 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2063ms (Allocations: 3540)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:74:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:72:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:01:08 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1606ms (Allocations: 3445)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:74:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:72:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:07:29 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2045ms (Allocations: 3675)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:74:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:72:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:07:49 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1935ms (Allocations: 3672)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:74:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:72:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 22:13:54 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1431ms (Allocations: 677)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 22:13:55 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1103ms (Allocations: 682)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 22:14:10 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1189ms (Allocations: 662)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 22:14:12 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1172ms (Allocations: 677)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for ::1 at 2023-04-17 22:14:45 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1143ms (Allocations: 664)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:15:11 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1344ms (Allocations: 661)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:16:07 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1384ms (Allocations: 676)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:30:43 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1303ms (ActiveRecord: 0.0ms | Allocations: 34202)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:31:36 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1190ms (Allocations: 680)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:33:19 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1045ms (Allocations: 679)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:35:30 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1129ms (Allocations: 683)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:86:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-17 22:35:54 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2580ms (Views: 2.3ms | Allocations: 15567)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:36:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2914ms (Views: 2.2ms | Allocations: 14381)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:36:45 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2501ms (Views: 4.2ms | Allocations: 14412)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:36:47 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2189ms (Views: 1.6ms | Allocations: 14333)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:36:50 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2372ms (Views: 2.1ms | Allocations: 14370)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:38:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2235ms (Views: 1.2ms | Allocations: 15658)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:39:16 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2372ms (Views: 1.9ms | Allocations: 14485)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:39:24 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2466ms (Views: 1.6ms | Allocations: 14350)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:39:27 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2530ms (Views: 3.6ms | Allocations: 14528)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:39:38 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2285ms (Views: 2.3ms | Allocations: 14330)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:39:47 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3024ms (Views: 1.7ms | Allocations: 14325)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:41:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2178ms (Views: 1.5ms | Allocations: 14362)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:41:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2428ms (Views: 4.2ms | Allocations: 15803)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:41:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2111ms (Views: 1.6ms | Allocations: 14334)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:42:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2193ms (Views: 2.0ms | Allocations: 14303)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:42:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2401ms (Views: 1.6ms | Allocations: 14335)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:42:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2491ms (Views: 1.6ms | Allocations: 15785)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:42:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2290ms (Views: 6.4ms | Allocations: 14311)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:42:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2532ms (Views: 3.5ms | Allocations: 14357)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:42:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2614ms (Views: 1.8ms | Allocations: 15580)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:43:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2488ms (Views: 1.7ms | Allocations: 14388)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:43:04 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2520ms (Views: 2.3ms | Allocations: 14316)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:43:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2416ms (Views: 2.7ms | Allocations: 14062)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:43:37 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2447ms (Views: 2.4ms | Allocations: 14451)
+
+
+Started GET "/scrape" for ::1 at 2023-04-17 22:43:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2533ms (Views: 5.2ms | Allocations: 14127)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:38:27 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2685ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 49420)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:38:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2301ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 14368)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:42:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2049ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 14510)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:46:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2742ms (Views: 7.7ms | Allocations: 14632)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:46:40 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1775ms (Views: 1.7ms | Allocations: 14543)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:47:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2418ms (Views: 4.1ms | Allocations: 14341)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:47:23 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1904ms (Views: 2.5ms | Allocations: 14553)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:47:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2325ms (Views: 2.1ms | Allocations: 14430)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:48:13 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2083ms (Views: 0.9ms | Allocations: 14367)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:50:48 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3134ms (Views: 12.0ms | Allocations: 14307)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:50:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2681ms (Views: 8.6ms | Allocations: 14380)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:51:41 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2956ms (Views: 1.6ms | Allocations: 14422)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:51:44 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1787ms (Views: 1.9ms | Allocations: 14102)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:51:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2336ms (Views: 3.3ms | Allocations: 14411)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:51:51 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2064ms (Views: 3.4ms | Allocations: 14124)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:52:38 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1985ms (Views: 2.4ms | Allocations: 14079)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:52:40 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2128ms (Views: 2.8ms | Allocations: 14207)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:52:44 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2458ms (Views: 11.9ms | Allocations: 15532)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:52:54 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1992ms (Views: 4.3ms | Allocations: 14079)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:52:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1778ms (Views: 1.6ms | Allocations: 15761)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:53:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1756ms (Views: 7.1ms | Allocations: 14383)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:53:05 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1907ms (Views: 1.5ms | Allocations: 15692)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:53:14 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2100ms (Views: 1.3ms | Allocations: 14252)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:53:53 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2216ms (Views: 5.5ms | Allocations: 14376)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:58:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3162ms (Views: 2.4ms | Allocations: 15763)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:58:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1930ms (Views: 2.4ms | Allocations: 14411)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:58:33 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2328ms (Views: 2.2ms | Allocations: 14242)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 08:58:36 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2369ms (Views: 1.7ms | Allocations: 14334)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:00:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2018ms (Views: 1.4ms | Allocations: 14376)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:00:28 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2151ms (Views: 1.6ms | Allocations: 14269)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:01:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2185ms (Views: 2.3ms | Allocations: 15663)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:01:54 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2069ms (Views: 1.8ms | Allocations: 14356)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:02:03 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1863ms (Views: 2.7ms | Allocations: 14386)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:02:34 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2213ms (Views: 1.7ms | Allocations: 14089)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:02:41 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2040ms (Views: 1.8ms | Allocations: 14165)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:02:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2193ms (Views: 4.3ms | Allocations: 14265)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:02:53 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1865ms (Views: 3.5ms | Allocations: 14381)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:02:56 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2453ms (Views: 1.5ms | Allocations: 14157)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:09 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1995ms (Views: 2.3ms | Allocations: 14149)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:16 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2437ms (Views: 3.7ms | Allocations: 15516)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:19 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1752ms (Views: 1.7ms | Allocations: 14234)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2575ms (Views: 2.4ms | Allocations: 14165)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:36 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3642ms (Views: 3.5ms | Allocations: 15836)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:44 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2534ms (Views: 2.4ms | Allocations: 14054)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2255ms (Views: 1.7ms | Allocations: 14350)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2214ms (Views: 1.0ms | Allocations: 14343)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:03:51 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1894ms (Views: 3.6ms | Allocations: 14094)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:04:28 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2062ms (Views: 4.1ms | Allocations: 14133)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:04:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2431ms (Views: 2.6ms | Allocations: 14345)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:06:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2279ms (Views: 3.2ms | Allocations: 15491)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:06:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2129ms (Views: 1.0ms | Allocations: 14233)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:07:10 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1990ms (Views: 1.9ms | Allocations: 14278)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 09:07:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2144ms (Views: 1.8ms | Allocations: 14365)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:28:15 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 7932ms (ActiveRecord: 0.0ms | Allocations: 48813)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:76:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:74:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:28:50 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 223)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:29:17 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 7430ms (Allocations: 11730)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:76:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:74:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:29:36 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2391ms (Allocations: 11675)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:76:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:74:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:29:58 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2682ms (Views: 4.6ms | Allocations: 14639)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:31:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 8509ms (Views: 2.8ms | Allocations: 17090)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:31:53 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2903ms (Views: 2.6ms | Allocations: 16711)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:32:26 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:36: syntax error, unexpected =>, expecting '}'
+        pp {  height => height }
+                     ^~
+/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:104: syntax error, unexpected `end', expecting end-of-input
+  end
+  ^~~
+):
+  
+app/controllers/scraper_controller.rb:36: syntax error, unexpected =>, expecting '}'
+app/controllers/scraper_controller.rb:104: syntax error, unexpected `end', expecting end-of-input
+app/controllers/scraper_controller.rb:36: syntax error, unexpected =>, expecting '}'
+app/controllers/scraper_controller.rb:104: syntax error, unexpected `end', expecting end-of-input
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:32:44 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:36: syntax error, unexpected =>, expecting '}'
+        pp {  :height => height }
+                      ^~
+/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:104: syntax error, unexpected `end', expecting end-of-input
+  end
+  ^~~
+):
+  
+app/controllers/scraper_controller.rb:36: syntax error, unexpected =>, expecting '}'
+app/controllers/scraper_controller.rb:104: syntax error, unexpected `end', expecting end-of-input
+app/controllers/scraper_controller.rb:36: syntax error, unexpected =>, expecting '}'
+app/controllers/scraper_controller.rb:104: syntax error, unexpected `end', expecting end-of-input
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:33:10 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (Allocations: 228)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:33:38 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10010ms (Allocations: 220)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:34:33 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10012ms (Allocations: 220)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:39:46 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10012ms (Allocations: 220)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:40:06 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10008ms (Allocations: 228)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:40:37 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 11ms (Allocations: 1668)
+
+
+  
+NoMethodError (undefined method `scrape_jumia' for #<ScraperController:0x00000000009268>
+Did you mean?  scrape_jiji
+               scrape_jambo):
+  
+app/controllers/scraper_controller.rb:15:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:40:51 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1869ms (Allocations: 3705)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:76:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:74:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 09:41:38 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 220)
+
+
+  
+SocketError (Failed to open TCP connection to jiji.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:66:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:01:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1939ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 39065)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:02:59 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2717ms (Allocations: 688)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:88:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for ::1 at 2023-04-18 11:03:02 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1501ms (Allocations: 682)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:88:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:03:27 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1227ms (Allocations: 663)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:88:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:03:41 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1586ms (Allocations: 678)
+
+
+  
+OpenURI::HTTPError (403 Forbidden):
+  
+app/controllers/scraper_controller.rb:88:in `scrape_jambo'
+app/controllers/scraper_controller.rb:14:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:03:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3437ms (Views: 2.8ms | Allocations: 17241)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:03:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2437ms (Views: 1.0ms | Allocations: 16206)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:04:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2338ms (Views: 3.5ms | Allocations: 16265)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:19:04 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2791ms (Allocations: 15336)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:76:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:74:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:19:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2283ms (Views: 0.6ms | Allocations: 15219)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:20:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2584ms (Views: 0.7ms | Allocations: 13836)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:22:52 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2046ms (Views: 0.4ms | Allocations: 17316)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:23:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3691ms (Views: 1.3ms | Allocations: 15864)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:26:06 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3237ms (Views: 1.0ms | Allocations: 15874)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:26:24 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2909ms (Allocations: 13335)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:76:in `block in scrape_jiji'
+app/controllers/scraper_controller.rb:74:in `scrape_jiji'
+app/controllers/scraper_controller.rb:18:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:27:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2150ms (Views: 1.6ms | Allocations: 16031)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:27:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 1918ms (Views: 0.9ms | Allocations: 15842)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:27:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2160ms (Views: 0.9ms | Allocations: 15733)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:19 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10011ms (Allocations: 220)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:29 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+... json: {  jumia: products jiji: prod3}
+...                          ^~~~~
+/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:31 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+... json: {  jumia: products jiji: prod3}
+...                          ^~~~~
+/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:31 +0300
+  
+SyntaxError (/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+... json: {  jumia: products jiji: prod3}
+...                          ^~~~~
+/home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/scraper_controller.rb:22: syntax error, unexpected tLABEL, expecting `do' or '{' or '('
+app/controllers/scraper_controller.rb:105: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:51 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:53 +0300
+Completed 200 OK in 4159ms (Views: 2.8ms | Allocations: 29861)
+
+
+Processing by ScraperController#index as */*
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:28:58 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3352ms (Views: 4.6ms | Allocations: 31312)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:28:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3256ms (Views: 2.2ms | Allocations: 58983)
+
+
+Completed 200 OK in 3365ms (Views: 1.5ms | Allocations: 54673)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-18 11:39:07 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3865ms (Views: 1.8ms | Allocations: 27996)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:39:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3412ms (Views: 7.2ms | Allocations: 30793)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:39:22 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 2603ms (Views: 2.4ms | Allocations: 29890)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:58:22 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4293ms (Views: 3.6ms | Allocations: 27942)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:58:26 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-18 11:58:27 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3027ms (Views: 1.7ms | Allocations: 40982)
+
+
+Completed 200 OK in 2904ms (Views: 2.4ms | Allocations: 44914)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 11:58:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3453ms (Views: 1.6ms | Allocations: 30083)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 12:00:35 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10052ms (Allocations: 228)
+
+
+  
+Errno::ECONNRESET (Connection reset by peer - SSL_connect):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for ::1 at 2023-04-18 12:00:45 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 10012ms (Allocations: 221)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:30:in `scrape_jumia'
+app/controllers/scraper_controller.rb:13:in `index'
+Started GET "/scrape" for ::1 at 2023-04-18 12:01:09 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3706ms (Views: 1.0ms | Allocations: 27454)
+
+
+Started GET "/scrape" for ::1 at 2023-04-18 12:01:13 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3395ms (Views: 1.1ms | Allocations: 29458)
+
+
