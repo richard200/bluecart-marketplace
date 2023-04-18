@@ -65,12 +65,6 @@ class ScraperController < ApplicationController
       result = []
       doc = Nokogiri::HTML(URI.open(jiji_url))
     
-      #  doc.css('.b-module.b-list.b-listing.srp-grid.b-display--landscape .b-list__items_nofooter.srp-results.srp-grid .s-item.s-item--large s.item__wrapper.clearfix').each do |item|
-      # #  doc.css('.crs-w._main.-phxs ,crs.row._no-g.-fw-nw._6cl-4cm.-pvxs .itm.col .prd._box._hvr').each do |item|
-      #   img = item.css('.s-item__image-section .s-item__image ').attribute('src').value
-      #   title = item.css('.s-item__info.clearfix .s-item__link .s-item__title').text
-      #   price = item.css('.s-item__details.clearfix .s-item__detail.s-item__detail--primary .s-item__price').text.strip
-    
       doc.css('.b-list-advert__gallery__item.js-advert-list-item .b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery').each do |item|
         #  doc.css('.crs-w._main.-phxs ,crs.row._no-g.-fw-nw._6cl-4cm.-pvxs .itm.col .prd._box._hvr').each do |item|
             img = item.css('.b-list-advert-base__img__wrapper.b-list-advert-base__img__wrapper--one-image .b-list-advert-base__img.js-list-advert-base-img .h-flex-center.h-width-100p.h-height-100p.h-overflow-hidden img').attribute('src').value
