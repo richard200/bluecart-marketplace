@@ -1,28 +1,32 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
-import About from './About';
+import { AppBar, Toolbar, Typography, IconButton } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
 
-function NavbarComponent() {
-  return (
-    <Navbar bg="light" expand="lg">
-      <LinkContainer to="/">
-        <Navbar.Brand>Shopcrawl</Navbar.Brand>
-      </LinkContainer>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <LinkContainer to="/products">
-            <Nav.Link>Products</Nav.Link>
-          </LinkContainer>
-          {/* change to an absolute path */}
-          <LinkContainer to="/About">
-            <Nav.Link>About</Nav.Link>
-          </LinkContainer>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  );
+function Navbar() {
+const handleClick = () => {
+console.log('Menu icon clicked');
+};
+
+return (
+<AppBar position="static" color="primary">
+<Toolbar>
+<IconButton edge="start" color="inherit" aria-label="menu" onClick={handleClick}>
+<MenuIcon />
+</IconButton>
+<Typography variant="h6" style={{flexGrow: 1}}>
+Shopcrawl
+</Typography>
+<div>
+<a href="/search" style={{color: 'white', textDecoration: 'none', marginRight: '20px'}}>
+Search
+</a>
+<a href="/login" style={{color: 'white', textDecoration: 'none'}}>
+Login
+</a>
+</div>
+</Toolbar>
+</AppBar>
+);
 }
 
-export default NavbarComponent;
+export default Navbar;
