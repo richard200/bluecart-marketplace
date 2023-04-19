@@ -1,24 +1,21 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import SearchBar from './components/SearchBar';
-import Navigation from './components/Navigation';
-import Homepage from './components/Homepage';
-import SearchResults from './components/SearchResults';
-import UserAccount from './components/UserAccount';
-import About from './components/About';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import ProductList from "./components/ProductList";
+import ProductDetails from "./components/ProductDetails";
 
 function App() {
   return (
-    <div>
-      <Navigation />
+    // use a fragment to wrap multiple elements
+    <>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<SearchBar />} />
-        <Route path="/" element={<Homepage />} />
-        <Route path="/search-results" element={<SearchResults />} />
-        <Route path="/user-account" element={<UserAccount />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/products" element={<ProductList />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
