@@ -9,17 +9,26 @@ class ScraperController < ApplicationController
       jambo_url = "https://www.jamboshop.com/category/Mobile-Phones/2"
       shopit_url = "https://shopit.co.ke/electronics/"
       jiji_url = "https://jiji.co.ke/mobile-phones"
+      jumia_url_game = "https://www.jumia.co.ke/video-games/"
+
+    jiji_url_games = "https://jiji.co.ke/videogames"
   
-     products = scrape_jumia(jumia_url)
+    #  products = scrape_jumia(jumia_url)
+     games = scrape_jumia_games(jumia_url_game)
+     games2 = scrape_jiji_games(jiji_url_games)
     # products = scrape_jambo(jambo_url)
      prod = scrape_jumia(jumia_url)
-    # prod1 = scrape_shopit(shopit_url)
-    # prod2 = scrape_ebay(ebay_url)
-    prod3 = scrape_jiji(jiji_url)
+    # # prod1 = scrape_shopit(shopit_url)
+    # # prod2 = scrape_ebay(ebay_url)
+     prod3 = scrape_jiji(jiji_url)
+
      
     #   kilimall_products = scrape_kilimall(kilimall_url)
   
-      render json: { jumia: products, jiji: prod3}
+      render json: { jumia: prod, jiji: prod3, jumia_game: games, jiji_games: games2}
+      # render json: {  jiji: prod3}
+      # render json: {  jumia_game: games}
+      # render json: {  jiji_games: games2}
     end
   
     private
@@ -36,8 +45,31 @@ class ScraperController < ApplicationController
         pp "Height #{height}"
         title = item.css('.core .info h3.name').text
         price = item.css('.core .info div.prc').text.strip
+        link = "https://jumia.co.ke#{item.css('.core').attribute('href').value}"
     
-        result << { :title => title, :price => price, :img => img }
+        result << { :title => title, :price => price, :img => img, :link => link}
+      end
+    
+      result
+    end
+
+  
+
+    jumia_url_game = "https://www.jumia.co.ke/video-games/"
+    def scrape_jumia_games(jumia_url_game)
+      result = []
+      doc = Nokogiri::HTML(URI.open(jumia_url_game))
+    
+       doc.css('.aim.row.-pbm .-pvs.col12 .card.-fh .-paxs.row._no-g._4cl-3cm-shs .prd._fb.col.c-prd').each do |item|
+      #  doc.css('.crs-w._main.-phxs ,crs.row._no-g.-fw-nw._6cl-4cm.-pvxs .itm.col .prd._box._hvr').each do |item|
+        img = item.css('a.core div.img-c img.img').attribute('data-src').value
+        height = item.css('a.core div.img-c img.img').attribute('height').value
+        pp "Height #{height}"
+        title = item.css('.core .info h3.name').text
+        price = item.css('.core .info div.prc').text.strip
+        link = "https://jumia.co.ke#{item.css('.core').attribute('href').value}"
+    
+        result << { :title => title, :price => price, :img => img, :link => link}
       end
     
       result
@@ -65,12 +97,33 @@ class ScraperController < ApplicationController
       result = []
       doc = Nokogiri::HTML(URI.open(jiji_url))
     
-      doc.css('.b-list-advert__gallery__item.js-advert-list-item .b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery').each do |item|
+      doc.css('.b-list-advert__gallery__item.js-advert-list-item').each do |item|
         #  doc.css('.crs-w._main.-phxs ,crs.row._no-g.-fw-nw._6cl-4cm.-pvxs .itm.col .prd._box._hvr').each do |item|
-            img = item.css('.b-list-advert-base__img__wrapper.b-list-advert-base__img__wrapper--one-image .b-list-advert-base__img.js-list-advert-base-img .h-flex-center.h-width-100p.h-height-100p.h-overflow-hidden img').attribute('src').value
-           title = item.css('.b-list-advert-base__data .b-list-advert-base__data__inner .b-list-advert-base__data__header .b-list-advert-base__data__title .qa-advert-list-item-title.b-list-advert-base__item-title .b-advert-title-inner.qa-advert-title.b-advert-title-inner--div').text
-           price = item.css('.b-list-advert-base__data .b-list-advert-base__data__inner .b-list-advert-base__data__header div.b-list-advert__price.h-mt-3 div.qa-advert-price').text.strip
-        result << { :img => img, :title => title, :price => price}
+            img = item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery .b-list-advert-base__img__wrapper.b-list-advert-base__img__wrapper--one-image .b-list-advert-base__img.js-list-advert-base-img .h-flex-center.h-width-100p.h-height-100p.h-overflow-hidden img').attribute('src').value
+           title = item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery .b-list-advert-base__data .b-list-advert-base__data__inner .b-list-advert-base__data__header .b-list-advert-base__data__title .qa-advert-list-item-title.b-list-advert-base__item-title .b-advert-title-inner.qa-advert-title.b-advert-title-inner--div').text
+           price = item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery .b-list-advert-base__data .b-list-advert-base__data__inner .b-list-advert-base__data__header div.b-list-advert__price.h-mt-3 div.qa-advert-price').text.strip
+           link = "https://jiji.co.ke#{item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery').attribute('href').value}"
+
+        result << { :img => img, :title => title, :price => price, :link => link}
+      end
+    
+      result
+    end
+
+ 
+
+    jiji_url_games = "https://jiji.co.ke/videogames"
+    def scrape_jiji_games(jiji_url_games)
+      result = []
+      doc = Nokogiri::HTML(URI.open(jiji_url_games))
+    
+      doc.css('.b-list-advert__gallery__item.js-advert-list-item').each do |item|
+        #  doc.css('.crs-w._main.-phxs ,crs.row._no-g.-fw-nw._6cl-4cm.-pvxs .itm.col .prd._box._hvr').each do |item|
+            img = item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery .b-list-advert-base__img__wrapper.b-list-advert-base__img__wrapper--one-image .b-list-advert-base__img.js-list-advert-base-img .h-flex-center.h-width-100p.h-height-100p.h-overflow-hidden img').attribute('src').value
+           title = item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery .b-list-advert-base__data .b-list-advert-base__data__inner .b-list-advert-base__data__header .b-list-advert-base__data__title .qa-advert-list-item-title.b-list-advert-base__item-title .b-advert-title-inner.qa-advert-title.b-advert-title-inner--div').text
+           price = item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery .b-list-advert-base__data .b-list-advert-base__data__inner .b-list-advert-base__data__header div.b-list-advert__price.h-mt-3 div.qa-advert-price').text.strip
+           link = "https://jiji.co.ke#{item.css('.b-list-advert-base.qa-advert-list-item.b-list-advert-base--gallery').attribute('href').value}"
+        result << { :img => img, :title => title, :price => price, :link => link}
       end
     
       result

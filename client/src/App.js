@@ -1,5 +1,6 @@
 
 import './App.css';
+import GameList from './components/Games';
 import PhoneList from './components/Phones';
 
 function App() {
