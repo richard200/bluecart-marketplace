@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Register from "./components/Register";
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+ import Reviews from './components/Reviews';
+ import Main from './components/Router';
+ import Progress from 'react-progress-2';
+ 
+ class App extends Component {
+ 
+   render() {
+     return (
+       <div>
+         <Progress.Component
+           style={{ background: '#dc3545' }}
+           thumbStyle={{ background: '#dc3545' }}
+         />
+         <Main />
+         <Reviews />
+       </div>
+     )
+   }
+ }
+ 
+ export default App
