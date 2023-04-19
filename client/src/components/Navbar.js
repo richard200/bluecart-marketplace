@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import About from './About';
 
 function NavbarComponent() {
   return (
@@ -14,7 +15,8 @@ function NavbarComponent() {
           <LinkContainer to="/products">
             <Nav.Link>Products</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/about">
+          {/* change to an absolute path */}
+          <LinkContainer to="/About">
             <Nav.Link>About</Nav.Link>
           </LinkContainer>
         </Nav>
