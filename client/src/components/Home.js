@@ -45,14 +45,7 @@ function Home() {
         </div>
         <SearchBar />
         <FilterBar />
-        <div className="Home-image" style={{ textAlign: "center", marginTop: "30px" }}>
-          <img
-            src="shopscrawl-screenshot.png"
-            alt=""
-            width="800px"
-            style={{ maxWidth: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}
-          />
-        </div>
+       
         <div className="Home-products" style={{ marginTop: "40px" }}>
           <Typography variant="h5" component="h3" style={{ fontWeight: "bold", color: "#212121", marginBottom: "10px" }}>
           Top Products in Mobile&Phones
