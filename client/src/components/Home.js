@@ -29,12 +29,14 @@ function Home() {
         }}
       >
         <div className="Home-header" style={{ marginBottom: "30px", textAlign: "center" }}>
-          <Typography variant="h3" component="h1" style={{ fontWeight: "bold", color: "#212121" }}>
-            BlueCart: The Ultimate Tool for Online Shopping
+          <Typography variant="h2" component="h1" style={{ fontWeight: "bold", color: "#212121" }}>
+            Welcome to BlueCart
           </Typography>
-          <Typography variant="h5" component="h2" style={{ color: "#757575" }}>
-            BlueCart helps you find the best deals and products from various e-commerce sites. Our smart algorithms compare
-            prices, ratings, delivery costs, and more, saving you time and money when you shop online.
+          <Typography variant="h4" component="h2" style={{ color: "#757575" }}>
+            The ultimate tool for online shopping
+          </Typography>
+          <Typography variant="body1" component="p" style={{ color: "#757575", maxWidth: "800px", margin: "20px auto" }}>
+            BlueCart helps you find the best deals and products from various e-commerce sites. Our smart algorithms compare prices, ratings, delivery costs, and more, saving you time and money when you shop online.
           </Typography>
           <Button variant="contained" color="primary" href="/search" style={{ marginTop: "20px" }}>
             Start Shopping
@@ -42,49 +44,40 @@ function Home() {
         </div>
         <SearchBar />
         <FilterBar />
-        <div className="Home-image" style={{ textAlign: "center" }}>
+        <div className="Home-image" style={{ textAlign: "center", marginTop: "30px" }}>
           <img
             src="shopcrawl-screenshot.png"
             alt="Shopcrawl screenshot"
             width="800px"
-            style={{ maxWidth: "100%", height: "auto" }}
+            style={{ maxWidth: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}
           />
         </div>
         <div className="Home-products" style={{ marginTop: "30px" }}>
+          <Typography variant="h5" component="h3" style={{ fontWeight: "bold", color: "#212121", marginBottom: "20px" }}>
+            Featured Products
+          </Typography>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} md={4}>
-              <Card style={{ maxWidth: "345px" }}>
-                <CardMedia image="product1.jpg" title="Product 1" style={{ height: "140px" }} />
+              <Card style={{ maxWidth: "500px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}>
+                <CardMedia
+                  image="/product1.jpg"
+                  title="Product 1"
+                  style={{ height: "250px", objectFit: "cover" }}
+                />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography variant="h6" component="h4">
                     Product 1
                   </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    This is a brief description of product 1. It has some amazing features and benefits that you will love.
+                  <Typography variant="body2" component="p">
+                    Some description of product 1
                   </Typography>
                 </CardContent>
-                <CardActions disableSpacing>
-                  <Icon color="primary">star</Icon>
-                  <Typography variant="body2" color="primary" component="p">
-                    4.5/5
-                  </Typography>
-                  <Icon color="secondary">local_shipping</Icon>
-                  <Typography variant="body2" color="secondary" component="p">
-                    Free Delivery
-                  </Typography>
-                  <Badge badgeContent={4} color="error">
-                    <Icon>compare_arrows</Icon>
-                  </Badge>
-                  <Typography variant="body2" component="p">
-                    Compare Prices
-                  </Typography>
-                </CardActions>
                 <CardActions>
                   <Button size="small" color="primary">
-                    Buy Now
+                    View Details
                   </Button>
-                  <Button size="small" color="primary">
-                    Visit Site
+                  <Button size="small" color="secondary">
+                    Add to Cart
                   </Button>
                 </CardActions>
               </Card>
@@ -105,9 +98,10 @@ You can find over 400,000 things to buy on BlueCart, covering everything you wou
 
 We have filtering criteria that ensure that online stores meet minimum quality requirements. We do so to provide the best shopping experience for our users. Besides credit cards and online payment methods, most of our online stores provide the cash on delivery option, meaning that you only pay upon the delivery of your ordered product. Go ahead and try us to get the cheapest price and best deals in Kenya. Happy shopping with BlueCart!
   </Typography>
-</div>
-</div>
-</div>
-);
-      }
+      </div>
+    </div>
+    </div>
+  );
+}
+
 export default Home;
