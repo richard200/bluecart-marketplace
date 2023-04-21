@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FormControl, InputLabel, Select, MenuItem } from "@material-ui/core";
+import "./FilterBar.css";
 
 function FilterBar({ filterValue, setFilterValue }) {
   // Use state to store the filter value

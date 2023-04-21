@@ -1,0 +1,22 @@
+.filter-bar {
+    position: fixed; /* Make the filter bar stick to the side */
+    top: 0; /* Align the filter bar to the top */
+    left: 0; /* Align the filter bar to the left */
+    height: 100%; /* Make the filter bar fill the entire height */
+    width: 200px; /* Set a fixed width for the filter bar */
+    padding: 20px; /* Add some padding around the content */
+    background-color: #f0f0f0; /* Set a light gray background color */
+    border-right: 1px solid #e0e0e0; /* Add a thin border to separate from the main content */
+  }
+  
+  /* Adjust the font size and margin of the input label */
+  .filter-bar .MuiFormLabel-root {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust the font size and width of the select element */
+  .filter-bar .MuiSelect-root {
+    font-size: 16px;
+    width: 100%;
+  }
