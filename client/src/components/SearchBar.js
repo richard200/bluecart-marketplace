@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import axios from "axios";
+import "./SearchBar.css"; // Import the CSS file for the search bar styling
 
 function SearchBar() {
   // Use state to store the input value
@@ -41,8 +42,9 @@ function SearchBar() {
         onChange={handleChange}
         ref={inputRef}
         placeholder="Enter a product name"
+        className="search-bar-input" 
       />
-      <button type="submit">Search</button>
+      <button type="submit" className="search-bar-button">Search</button> 
     </form>
   );
 }

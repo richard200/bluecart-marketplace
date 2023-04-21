@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { Typography, Button } from "@material-ui/core";
+import SearchBar from "./SearchBar";
+import FilterBar from "./FilterBar";
 
 function Home() {
   return (
@@ -14,6 +16,7 @@ function Home() {
         padding: "50px",
         backgroundColor: "#F5F5F5",
       }}>
+      
       <div className="Home-header" style={{ 
         marginBottom: "30px",
         textAlign: "center",
@@ -35,6 +38,8 @@ function Home() {
           Start shopping
         </Button>
       </div>
+      <SearchBar />
+        <FilterBar />
       <div className="Home-image" style={{ 
         textAlign: "center",
       }}>
@@ -111,9 +116,10 @@ function Home() {
   </div>
   <div className="Home-footer">
     <div className="Home-footer-links">
-      <a href="/about">About</a>
-      <a href="/contact">Contact</a>
-      <a href="/privacy">Privacy Policy</a>
+      <ul><a href="/about">About</a> </ul>
+      <ul><a href="/contact">Contact</a></ul>
+      <ul><a href="/privacy">Privacy Policy</a></ul>
+      
     </div>
     <Typography variant="body2" component="p" style={{color: "#757575"}}>
       © 2023 BlueCart. All rights reserved.
