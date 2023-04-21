@@ -13,6 +13,7 @@ import {
 } from "@material-ui/core";
 import SearchBar from "./SearchBar";
 import FilterBar from "./FilterBar";
+import TopProducts from "./TopProducts";
 
 function Home() {
   return (
@@ -46,24 +47,25 @@ function Home() {
         <FilterBar />
         <div className="Home-image" style={{ textAlign: "center", marginTop: "30px" }}>
           <img
-            src="shopcrawl-screenshot.png"
-            alt="Shopcrawl screenshot"
+            src="shopscrawl-screenshot.png"
+            alt=""
             width="800px"
             style={{ maxWidth: "100%", height: "auto", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}
           />
         </div>
-        <div className="Home-products" style={{ marginTop: "30px" }}>
-          <Typography variant="h5" component="h3" style={{ fontWeight: "bold", color: "#212121", marginBottom: "20px" }}>
-            Featured Products
+        <div className="Home-products" style={{ marginTop: "40px" }}>
+          <Typography variant="h5" component="h3" style={{ fontWeight: "bold", color: "#212121", marginBottom: "10px" }}>
+          Top Products in Mobile&Phones
           </Typography>
+          <TopProducts />
           <Grid container spacing={3}>
-            <Grid item xs={12} sm={6} md={4}>
-              <Card style={{ maxWidth: "500px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}>
-                <CardMedia
-                  image="/product1.jpg"
-                  title="Product 1"
-                  style={{ height: "250px", objectFit: "cover" }}
-                />
+  <Grid item xs={12} sm={6} md={4}>
+    <Card variant="outlined" style={{ maxWidth: "500px" }}>
+        <CardMedia
+          image="/product1.jpg"
+          title="Product 1"
+          style={{ height: "200px", objectFit: "cover" }}
+        />
                 <CardContent>
                   <Typography variant="h6" component="h4">
                     Product 1
