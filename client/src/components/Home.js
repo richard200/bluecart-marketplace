@@ -1,131 +1,113 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Typography, Button } from "@material-ui/core";
+import {
+  Typography,
+  Button,
+  Grid,
+  Icon,
+  Badge,
+  Card,
+  CardContent,
+  CardMedia,
+  CardActions,
+} from "@material-ui/core";
 import SearchBar from "./SearchBar";
 import FilterBar from "./FilterBar";
 
 function Home() {
   return (
-  
     <div>
       <Navbar />
-      <div className="Home" style={{ 
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        padding: "50px",
-        backgroundColor: "#F5F5F5",
-      }}>
-      
-      <div className="Home-header" style={{ 
-        marginBottom: "30px",
-        textAlign: "center",
-      }}>
-        <Typography variant="h3" component="h1" style={{ 
-          fontWeight: "bold",
-          color: "#212121"
-        }}>
-          BlueCart: The ultimate tool for online shopping
-        </Typography>
-        <Typography variant="h5" component="h2" style={{ 
-          color: "#757575"
-        }}>
-         BlueCart helps you find the best deals and products from various e-commerce sites. You can compare prices, ratings, delivery costs, and more with our smart algorithms. 
-        </Typography>
-        <Button variant="contained" color="primary" href="/search" style={{ 
-          marginTop: "20px"
-        }}>
-          Start shopping
-        </Button>
-      </div>
-      <SearchBar />
-        <FilterBar />
-      <div className="Home-image" style={{ 
-        textAlign: "center",
-      }}>
-        <img src="shopcrawl-screenshot.png" alt="Shopcrawl screenshot" width="800px" style={{ 
-          maxWidth: "100%",
-          height: "auto"
-        }} />
-      </div>
-      <div className="Home-testimonials" style={{ 
-        marginTop: "30px",
-        marginBottom: "30px",
-        textAlign: "center",
-      }}>
-        <Typography variant="h4" component="h3" style={{ 
-          fontWeight: "bold",
-          color: "#212121"
-        }}>
-          What our customers say
-        </Typography>
-        <div className="Home-testimonials-grid" style={{ 
+      <div
+        className="Home"
+        style={{
           display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-around",
-          marginTop: "20px",
-        }}>
-          <div className="Home-testimonial-card" style={{ 
-            width: "300px",
-            height: "350px",
-            backgroundColor: "#FFFFFF",
-            borderRadius: "10px",
-            padding: "20px",
-            boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.1)",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}>
-            <img src="customer-1.jpg" alt="Customer 1" width="100px" style={{ 
-              borderRadius: "50%",
-              marginBottom: "20px"
-            }} />
-            <Typography variant="body1" component="p" style={{ 
-              color: "#757575",
-              marginBottom: "20px"
-            }}>
-              "Bluecart is amazing! It saves me so much time and money when I shop online. I love how it shows me the best deals and products from different sites in one place."
-            </Typography>
-            <Typography variant="body2" component="p" style={{ 
-              fontWeight: "bold",
-              color: "#212121"
-            }}>
-              - Anna Smith
-            </Typography>
-          </div>
-          <div className="Home-testimonial-card">
-        <img src="customer-2.jpg" alt="Customer 2" width="100px"/>
-        <Typography variant="body1" component="p" style={{color: "#757575"}}>
-          “I use BlueCart every time I need to buy something online. It’s so easy and convenient to compare prices, ratings, delivery costs, and more. It helps me make smarter buying decisions.”
-        </Typography>
-        <Typography variant="body2" component="p" style={{fontWeight: "bold", color: "#212121"}}>
-          - John Lee
-        </Typography>
-      </div>
-      <div className="Home-testimonial-card">
-        <img src="customer-3.jpg" alt="Customer 3" width="100px"/>
-        <Typography variant="body1" component="p" style={{color: "#757575"}}>
-          “BlueCart is the best app for online shopping. It has everything I need to find the perfect products for me. It also has a great customer service team that is always ready to help.”
-        </Typography>
-        <Typography variant="body2" component="p" style={{fontWeight: "bold", color: "#212121"}}>
-          - Lisa Chen
-        </Typography>
-      </div>
-    </div>
-  </div>
-  <div className="Home-footer">
-    <div className="Home-footer-links">
-      <ul><a href="/about">About</a> </ul>
-      <ul><a href="/contact">Contact</a></ul>
-      <ul><a href="/privacy">Privacy Policy</a></ul>
-      
-    </div>
-    <Typography variant="body2" component="p" style={{color: "#757575"}}>
-      © 2023 BlueCart. All rights reserved.
-    </Typography>
-  </div>
-  </div>
-</div>);
-}
+          flexDirection: "column",
+          alignItems: "center",
+          padding: "50px",
+          backgroundColor: "#F5F5F5",
+        }}
+      >
+        <div className="Home-header" style={{ marginBottom: "30px", textAlign: "center" }}>
+          <Typography variant="h3" component="h1" style={{ fontWeight: "bold", color: "#212121" }}>
+            BlueCart: The Ultimate Tool for Online Shopping
+          </Typography>
+          <Typography variant="h5" component="h2" style={{ color: "#757575" }}>
+            BlueCart helps you find the best deals and products from various e-commerce sites. Our smart algorithms compare
+            prices, ratings, delivery costs, and more, saving you time and money when you shop online.
+          </Typography>
+          <Button variant="contained" color="primary" href="/search" style={{ marginTop: "20px" }}>
+            Start Shopping
+          </Button>
+        </div>
+        <SearchBar />
+        <FilterBar />
+        <div className="Home-image" style={{ textAlign: "center" }}>
+          <img
+            src="shopcrawl-screenshot.png"
+            alt="Shopcrawl screenshot"
+            width="800px"
+            style={{ maxWidth: "100%", height: "auto" }}
+          />
+        </div>
+        <div className="Home-products" style={{ marginTop: "30px" }}>
+          <Grid container spacing={3}>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card style={{ maxWidth: "345px" }}>
+                <CardMedia image="product1.jpg" title="Product 1" style={{ height: "140px" }} />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Product 1
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    This is a brief description of product 1. It has some amazing features and benefits that you will love.
+                  </Typography>
+                </CardContent>
+                <CardActions disableSpacing>
+                  <Icon color="primary">star</Icon>
+                  <Typography variant="body2" color="primary" component="p">
+                    4.5/5
+                  </Typography>
+                  <Icon color="secondary">local_shipping</Icon>
+                  <Typography variant="body2" color="secondary" component="p">
+                    Free Delivery
+                  </Typography>
+                  <Badge badgeContent={4} color="error">
+                    <Icon>compare_arrows</Icon>
+                  </Badge>
+                  <Typography variant="body2" component="p">
+                    Compare Prices
+                  </Typography>
+                </CardActions>
+                <CardActions>
+                  <Button size="small" color="primary">
+                    Buy Now
+                  </Button>
+                  <Button size="small" color="primary">
+                    Visit Site
+                  </Button>
+                </CardActions>
+              </Card>
+            </Grid>
+            {/* Repeat for other products */}
+          </Grid>
+        </div>
+        <div className="Home-footer">
+  <Typography variant="h6" component="h2" style={{ fontWeight: "bold", color: "#212121", marginBottom: "10px" }}>
+   Shopping Online Kenya
+  </Typography>
+  <Typography variant="body1" component="p" style={{ color: "#757575" }}>
+  At BlueCart, we help you compare prices and shop online from hundreds of thousands of different products in Kenya. We are here to help you save money and stay informed about the price and availability of items. Our platform aggregates products from serious, trustworthy online stores that sell original and high-quality products, so you can shop with confidence.
+
+Our machine and shoppers work hand in hand to make sure that what you see on BlueCart is worth your time. We are impartial and will remain so forever. We display products to you based on the best price in Kenya and do not favor an online store over another. This is how comparison shopping should be: impartial.
+
+You can find over 400,000 things to buy on BlueCart, covering everything you would find in the biggest malls in Kenya, including the latest available phones, tablets, computers, laptops, gadgets, televisions, electronics, HiFi, home appliances, men's and women's fashion, beauty, pharmaceuticals, kids' and baby stuff, and even hardware and auto accessories. Some of the popular stores we host include Kilimall, Jumia, and dozens more. Some of the popular brands you'd find include Apple, Samsung, HTC, Nokia, Sony, HP, Dell, Toshiba, Lenovo, Nikon, and Infinix. You'd also find the latest prices of iPhone 11 Pro and the iPhone 11 Pro Max, Nokia 6.1, Nokia 8, Lenovo K6 note, Samsung Galaxy A6 plus, HTC desire 12, HTC desire 12 plus, Sony Xperia XZ2, Sony Playstation 4, and Microsoft Xbox. If it is sold online (and it's legal) then you will find it on BlueCart!
+
+We have filtering criteria that ensure that online stores meet minimum quality requirements. We do so to provide the best shopping experience for our users. Besides credit cards and online payment methods, most of our online stores provide the cash on delivery option, meaning that you only pay upon the delivery of your ordered product. Go ahead and try us to get the cheapest price and best deals in Kenya. Happy shopping with BlueCart!
+  </Typography>
+</div>
+</div>
+</div>
+);
+      }
 export default Home;
