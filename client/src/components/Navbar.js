@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { userLoginSuccess } from "../redux/Actions/userActions";
+import About from "./About";
 
 const Navbar = ({ user, setUser }) => {
   // Define a function to handle the logout
@@ -46,6 +47,8 @@ const Navbar = ({ user, setUser }) => {
       )}
       
         <Link to="/login">Login</Link>
+        
+        <Link to="/about">About</Link>
       
     </div>
   );

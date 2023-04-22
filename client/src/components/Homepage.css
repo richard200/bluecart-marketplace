@@ -136,17 +136,19 @@
 
   h4{
     margin-top: 40px;
+    color: #2e180a;
    position: center;
    font-size: 2em; /* added this line */
   }
   
-  .social-icons a {
-    margin-right: 20px;
+  /* .social-icons a {
+    margin-left: 20px;
+    
   }
   
   .social-icons img {
     height: 30px;
-  }
+  } */
   
   @media (max-width: 767px) {
     .footer-col {
@@ -158,11 +160,44 @@
       margin-right: 10px;
     }
   
-    .social-icons a {
+    /* .social-icons a {
       margin-right: 10px;
     }
   
     .social-icons img {
       height: 20px;
+    } */
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
     }
+    
+    .social-icons a {
+      margin: 0 10px;
+    }
+    
+
   }
+  .footer-col {
+    position: relative;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  

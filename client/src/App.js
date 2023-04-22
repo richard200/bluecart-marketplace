@@ -8,6 +8,7 @@ import ProductDetails from "./components/ProductDetails";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import History from "./components/History";
+import About from "./components/About"; // Import About component
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/history" element={<History />} />
+            <Route path="/about" element={<About />} /> // Add Route for about page
           </Routes>
         </div>
       </Router>
