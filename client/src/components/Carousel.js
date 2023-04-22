@@ -27,24 +27,24 @@ const Carousel = () => {
     {
       id: 1,
       image:
-        "https://images.unsplash.com/photo-1572116469696-32cf0c9e8f66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://territories.co.ke/wp-content/uploads/2022/06/HP-ProBook-640-G1-Intel-Core-i5-4th-Gen.png",
       title: "Laptop",
-      price: "$999",
+      price: "$499",
       link: "/products?query=laptop",
     },
     {
       id: 2,
       image:
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21hcnRwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg",
       title: "Smartphone",
-      price: "$699",
+      price: "$69",
       link: "/products?query=smartphone",
     },
     {
       id: 3,
       image:
         "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVsZXZpc2lvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "Television",
+      title: "Watch",
       price: "$499",
       link: "/products?query=television",
     },
@@ -59,8 +59,8 @@ const Carousel = () => {
     {
       id: 5,
       image:
-        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2hlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "Watch",
+        "https://tvguru.co.ke/wp-content/uploads/2022/07/Samsung-55-BU8000-Crystal-UHD-4K-Smart-LED-TV-55BU8000-1.webp",
+      title: "Television",
       price: "$299",
       link: "/products?query=watch",
     },
