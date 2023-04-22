@@ -38,7 +38,8 @@ const Navbar = ({ user, setUser }) => {
 
   return (
     <div className="navbar">
-      <Link to="/">Home</Link>
+      <h1 id="nav-title"><a  
+      href="/">Home</a></h1>
       {user && <Link to="/history">History</Link>}
       {user ? (
         <button onClick={handleLogout}>Logout</button>
@@ -47,10 +48,10 @@ const Navbar = ({ user, setUser }) => {
       )}
       
         <Link to="/login">Login</Link>
-        
+
         <Link to="/about">About</Link>
-      
-    </div>
+       </div>
+    
   );
 };
 

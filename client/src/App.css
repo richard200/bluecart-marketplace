@@ -12,16 +12,31 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+    align-items: center;
   background-color: #825c5c; /* changed to white */
   color: #212b36; /* changed to dark gray */
   padding: 20px;
   font-size: 18px;
 }
 
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
 .navbar a {
   color: #212b36; /* changed to dark gray */
   text-decoration: none;
+  margin-right: 1rem;
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+.navbar .right {
+  margin-left: auto;
 }
 
 .navbar .logo {
