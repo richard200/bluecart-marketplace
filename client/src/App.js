@@ -1,22 +1,30 @@
 import React from "react";
-import SearchBar from "./components/SearchBar";
-import ProductList from "./components/ProductList";
-import FilterBar from "./components/FilterBar";
-
-
-import HistoryList from "./components/HistoryList";
-
-// Import the Home component
-import Home from "./components/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Routes
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
+import ProductDetails from "./components/ProductDetails";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import History from "./components/History";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      
-      <ProductList />
-      <HistoryList />
-    </div>
+    <Provider store={store}>
+      <Router>
+        <Navbar />
+        <div className="container">
+          <Routes> // Wrap Route elements in Routes
+            <Route exact path="/" element={<HomePage />} /> // Use element prop instead of children prop
+            <Route path="/products/:id" element={<ProductDetails />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/history" element={<History />} />
+          </Routes>
+        </div>
+      </Router>
+    </Provider>
   );
 }
 

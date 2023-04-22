@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define the styles for the home-page class */
+  .home-page {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Define the styles for the content class */
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Define the styles for the h1 element */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Define the styles for the p element */
+  p {
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Define the styles for the form element */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Define the styles for the button element */
+  button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e180a;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Define the styles for the carousel class */
+  .carousel {
+    margin-top: 80px;
+  }
+  
+  /* Define the styles for the h2 element */
+  h2 {
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+  }
+  
+  /* Define the styles for the carousel-item class */
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Define the styles for the carousel-item-info class */
+  .carousel-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Define the styles for the h3 element */
+  h3 {
+    color: #333;
+  }
+  
+  /* Define the styles for the p element */
+  p {
+    color: #666;
+  }
+  
+  /* Define the styles for the categories class */
+  .categories {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  
+  /* Define the styles for the categories-grid class */
+  .categories-grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 70px;
+  }
+  
+  /* Define the styles for the category-card class */
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-col {
+    margin-bottom: 20px;
+    border: none; /* removed the border */
+    border-radius: none; /* removed the border radius */
+    display: flex; /* added this line */
+    flex-direction: column; /* added this line */
+    align-items: center; /* added this line */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-right: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center; /* changed this line */
+  }
+
+  h4{
+    margin-top: 40px;
+   position: center;
+   font-size: 2em; /* added this line */
+  }
+  
+  .social-icons a {
+    margin-right: 20px;
+  }
+  
+  .social-icons img {
+    height: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-col {
+      margin-bottom: 20px;
+    }
+  
+    ul li {
+        margin-top: 40px;
+      margin-right: 10px;
+    }
+  
+    .social-icons a {
+      margin-right: 10px;
+    }
+  
+    .social-icons img {
+      height: 20px;
+    }
+  }
