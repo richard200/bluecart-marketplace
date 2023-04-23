@@ -4483,3 +4483,8 @@ Started GET "/scrape/title" for 127.0.0.1 at 2023-04-23 19:03:33 +0300
   
 ActionController::RoutingError (No route matches [GET] "/scrape/title"):
   
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 19:18:13 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5137ms (Views: 3.9ms | Allocations: 39581)
+
+

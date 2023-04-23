@@ -69,7 +69,7 @@ const Carousel = () => {
   // Return the JSX for the carousel
   return (
     <div className="carousel">
-      <h2>Featured Products</h2>
+      <h2>Trending Products</h2>
       <Slider {...settings}>
         {data.map((item) => (
           <div key={item.id} className="carousel-item">
