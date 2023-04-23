@@ -38,23 +38,20 @@ const Navbar = ({ user, setUser }) => {
 
   return (
     <div className="navbar">
-      <h1 id="nav-title"><a  
-      href="/">Home</a></h1>
+     <h1 id="nav-title"><a  
+      href="/">BlueCart!</a></h1>
       {user && <Link to="/history">History</Link>}
       {user ? (
         <button onClick={handleLogout}>Logout</button>
       ) : (
         <Link to="/categories">Categories</Link>
       )}
-        <Link to="/register">Register</Link>
-      
-      
-        <Link to="/login">Login</Link>
-
-        <Link to="/about">About</Link>
-       </div>
-    
+      <Link to="/register">Register</Link>
+      <Link to="/login">Login</Link>
+      <Link to="/about">About</Link>
+    </div>
   );
+  
 };
 
 // Map the state to props
