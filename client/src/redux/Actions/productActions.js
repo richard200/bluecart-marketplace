@@ -61,11 +61,12 @@ export const fetchProductDetails = (id) => {
   return async (dispatch) => {
     dispatch(fetchProductDetailsRequest());
     try {
-      const response = await axios.get(`/api/products/${id}`);
+      const response = await axios.get(`http://localhost:3000/scrape`);
       const data = response.data;
       dispatch(fetchProductDetailsSuccess(data));
     } catch (error) {
       dispatch(fetchProductDetailsFailure(error.message));
+      console.log(error);
     }
   };
 };

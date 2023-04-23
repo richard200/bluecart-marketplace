@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { useProductsData } from "../hooks/useProductsData";
+import useProductData from "./hooks/useProductData";
 import ProductItem from "./ProductItem";
 
 const ProductList = () => {
@@ -8,7 +8,7 @@ const ProductList = () => {
   const location = useLocation();
 
   // Use a custom hook to fetch the products data from the backend service
-  const { loading, error, data } = useProductsData();
+  const { loading, error, data } = useProductData();
 
   // Define a function to get the query parameter from the location
   const getQuery = () => {

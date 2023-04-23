@@ -14,7 +14,7 @@ function useProductData(productId) {
     setLoading(true);
 
     // Make a GET request to the API with the product ID
-    axios.get(`https://example.com/api/products/${productId}`)
+    axios.get(`http://localhost:3000/scrape`)
       .then(response => {
         // Set the product state to the data from the response
         setProduct(response.data);
