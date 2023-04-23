@@ -10,23 +10,35 @@ function useProductData(productId) {
 
   // Define the effect hook that runs once when the component mounts
   useEffect(() => {
-    // Set the loading state to true
-    setLoading(true);
+    // Check if the product ID is valid
+    if (productId) {
+      // Set the loading state to true
+      setLoading(true);
 
-    // Make a GET request to the API with the product ID
-    axios.get(`http://localhost:3000/scrape`)
-      .then(response => {
-        // Set the product state to the data from the response
-        setProduct(response.data);
-      })
-      .catch(error => {
-        // Set the error state to the message from the error
-        setError(error.message);
-      })
-      .finally(() => {
-        // Set the loading state to false
-        setLoading(false);
-      });
+      // Make a GET request to the API with the product ID
+      axios.get(`http://localhost:3000/scrape/${productId}`)
+        .then(response => {
+          // Check if the response data is valid
+          if (response.data && response.data.product) {
+            // Set the product state to the data from the response
+            setProduct(response.data.product);
+          } else {
+            // Set the error state to a custom message
+            setError("No product data found");
+          }
+        })
+        .catch(error => {
+          // Set the error state to the message from the error
+          setError(error.message);
+        })
+        .finally(() => {
+          // Set the loading state to false
+          setLoading(false);
+        });
+    } else {
+      // Set the product state to null
+      setProduct(null);
+    }
   }, [productId]); // Only run the effect when the productId changes
 
   // Return the state variables as an object

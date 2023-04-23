@@ -4453,3 +4453,33 @@ Processing by ScraperController#index as HTML
 Completed 200 OK in 3868ms (Views: 5.7ms | Allocations: 39172)
 
 
+Started GET "/scrape" for ::1 at 2023-04-23 18:53:38 +0300
+Processing by ScraperController#index as HTML
+Completed 500 Internal Server Error in 730ms (Allocations: 11465)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 18:54:11 +0300
+Processing by ScraperController#index as HTML
+Completed 500 Internal Server Error in 887ms (Allocations: 11469)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape/samsung" for 127.0.0.1 at 2023-04-23 19:02:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/scrape/samsung"):
+  
+Started GET "/scrape/title" for 127.0.0.1 at 2023-04-23 19:03:33 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/scrape/title"):
+  
