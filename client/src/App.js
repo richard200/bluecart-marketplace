@@ -8,6 +8,7 @@ import ProductDetails from "./components/ProductDetails";
 import ProductList from "./components/ProductList";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Categories from "./components/Categories";
 import History from "./components/History";
 import About from "./components/About"; // Import About component
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/products/:id" element={<ProductDetails />} />
             <Route path="/products" element={<ProductList />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/categories" element={<Categories />} />
             <Route path="/register" element={<Register />} />
             <Route path="/history" element={<History />} />
             <Route path="/about" element={<About />} />

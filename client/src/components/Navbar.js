@@ -44,8 +44,10 @@ const Navbar = ({ user, setUser }) => {
       {user ? (
         <button onClick={handleLogout}>Logout</button>
       ) : (
-        <Link to="/register">Register</Link>
+        <Link to="/categories">Categories</Link>
       )}
+        <Link to="/register">Register</Link>
+      
       
         <Link to="/login">Login</Link>
 

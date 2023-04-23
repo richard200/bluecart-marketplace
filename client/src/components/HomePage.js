@@ -16,7 +16,7 @@ import Search from "./Search";
 import Carousel from "./Carousel";
 
 // Import the Categories component
-import Categories from "./Categories";
+
 
 // Import the Footer component
 import Footer from "./Footer";
@@ -73,7 +73,7 @@ const HomePage = () => {
         <Carousel />
 
         {/* Render the Categories component */}
-        <Categories />
+        
       </div>
 
       {/* Render the Footer component */}

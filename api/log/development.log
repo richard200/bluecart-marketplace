@@ -4488,3 +4488,250 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 5137ms (Views: 3.9ms | Allocations: 39581)
 
 
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 20:16:48 +0300
+Processing by ScraperController#index as HTML
+Completed 500 Internal Server Error in 965ms (Allocations: 11397)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 20:17:39 +0300
+Processing by ScraperController#index as HTML
+Completed 200 OK in 3588ms (Views: 7.8ms | Allocations: 39387)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 20:23:55 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2544ms (Allocations: 28023)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:05:18 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5920ms (Views: 6.4ms | Allocations: 39005)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:15:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5738ms (Views: 6.8ms | Allocations: 39177)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:16:22 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1351ms (Allocations: 11344)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape/games" for 127.0.0.1 at 2023-04-23 21:17:18 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/scrape/games"):
+  
+Started GET "/scrape/Games" for 127.0.0.1 at 2023-04-23 21:17:23 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/scrape/Games"):
+  
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 21:17:30 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5883ms (Views: 4.2ms | Allocations: 39052)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:17:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5265ms (Views: 3.3ms | Allocations: 39181)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:17:59 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 6048ms (Views: 4.2ms | Allocations: 39047)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:21:32 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4164ms (Views: 7.5ms | Allocations: 39128)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:31:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4505ms (Views: 5.2ms | Allocations: 39123)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:32:08 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3697ms (Views: 3.5ms | Allocations: 39290)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:33:49 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3735ms (Views: 3.4ms | Allocations: 39108)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:33:53 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2587ms (Allocations: 28134)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:34:26 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4664ms (Views: 7.4ms | Allocations: 39487)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:34:35 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3515ms (Views: 9.5ms | Allocations: 39152)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:35:28 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 708ms (Allocations: 11628)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:35:33 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2401ms (Allocations: 28212)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:44:36 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 874ms (Allocations: 11425)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:47:41 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1002ms (Allocations: 11380)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:48:14 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2899ms (Allocations: 27838)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:48:25 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 774ms (Allocations: 11347)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:48:48 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3823ms (Views: 6.9ms | Allocations: 39303)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:51:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3784ms (Views: 6.0ms | Allocations: 39058)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:51:46 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3777ms (Views: 3.8ms | Allocations: 39435)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:52:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3725ms (Views: 8.8ms | Allocations: 39393)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 21:52:24 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 807ms (Allocations: 11398)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:52:36 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 736ms (Allocations: 11609)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:52:46 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2694ms (Allocations: 28189)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 21:56:09 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 965ms (Allocations: 11327)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-23 22:18:17 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4272ms (Views: 26.1ms | Allocations: 39633)
+
+
