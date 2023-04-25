@@ -1,3 +1,5 @@
+// 
+
 
 
 
@@ -37,7 +39,7 @@ function Login (props ) {
       .then(data => {
         if (data.user_id) {
           sessionStorage.setItem('userId', data.user_id);
-          window.location.href = 'http://localhost:3000/phones';
+          window.location.href = '/categories';
           props.onLogin();
        
         } else {
@@ -89,7 +91,7 @@ function Login (props ) {
                 <FormGroup>
                   <Label for="email">Username / Email</Label>
                   <Input
-                    type="email"
+                    type="text"
                     name="email"
                     id="email"
                     placeholder="Enter your email or username"

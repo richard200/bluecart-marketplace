@@ -1,39 +1,37 @@
-
-import { Routes, Route, BrowserRouter, Switch } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './App.css';
-import Games from './components/Games';
-import Phones from './components/Phones';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Routes
+import { Provider } from "react-redux"; // Import Provider
+import store from "./redux/store"; // Import store
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
+import ProductDetails from "./components/ProductDetails";
+import ProductList from "./components/ProductList";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Categories from "./components/Categories";
+import History from "./components/History";
+import About from "./components/About"; // Import About component
 
 function App() {
   return (
-    <Router>
-    <div className="App">
-  {/* <h1>My Phone Store</h1>
-  <p className='open'>Look for and compare products based on price, 
-    rating and find which store is best to visit for the product you are looking for</p>
-    <br></br> */}
-   
-   <Switch>
-
-      <Route path="/phones" component={Phones} />
-      <Route path="/games" component={Games} />
-      <Route path="/login" component={Login} />
-      <Route path="/signup" component={Signup} />
-    
-    
-   
-    </Switch>
-     
-   
-    
-   
-    </div>
-    </Router>
-  
-   
+    <Provider store={store}> 
+      <Router>
+        <Navbar />
+        <div className="container">
+          <Routes>
+            <Route exact path="/" element={<HomePage />} />
+            <Route path="/products/:id" element={<ProductDetails />} />
+            <Route path="/products" element={<ProductList />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/categories" element={<Categories />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/history" element={<History />} />
+            <Route path="/about" element={<About />} />
+            {/* <Route path="*" element={<Navigate to="/" />} /> */}
+          </Routes>
+        </div>
+      </Router>
+    </Provider>
   );
 }
 

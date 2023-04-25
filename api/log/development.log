@@ -5238,3 +5238,253 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 9615ms (Views: 5.9ms | Allocations: 39481)
 
 
+Started POST "/register" for ::1 at 2023-04-25 14:11:28 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"gabriel", "email"=>"gab@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"gabriel", "email"=>"gab@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f104c6a9d80>, params: {"username"=>"gabriel", "email"=>"gab@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"gabriel", "email"=>"gab@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "gabriel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gab@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "gabriel"], ["email", "gab@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-25 11:11:29.373248"], ["updated_at", "2023-04-25 11:11:29.373248"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "gabriel"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "gab@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.34ms)
+Completed 201 Created in 294ms (Views: 4.7ms | ActiveRecord: 5.7ms | Allocations: 42594)
+
+
+Started GET "/login" for ::1 at 2023-04-25 14:11:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started POST "/register" for ::1 at 2023-04-25 14:16:48 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f104000e540>, params: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "manuel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "manuel"], ["email", "manu@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-25 11:16:48.684531"], ["updated_at", "2023-04-25 11:16:48.684531"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "manuel"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.22ms)
+Completed 201 Created in 284ms (Views: 0.8ms | ActiveRecord: 4.9ms | Allocations: 4712)
+
+
+Started GET "/login" for ::1 at 2023-04-25 14:16:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started POST "/register" for ::1 at 2023-04-25 14:18:03 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f104400bd78>, params: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "manuel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 217ms (Views: 0.5ms | ActiveRecord: 0.4ms | Allocations: 5840)
+
+
+Started GET "/login" for ::1 at 2023-04-25 14:18:03 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:18:31 +0300
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 422 Unprocessable Entity in 4371ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 43353)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-25 14:18:55 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 15ms (Views: 1.9ms | ActiveRecord: 6.0ms | Allocations: 1075)
+
+
+Started POST "/register" for 127.0.0.1 at 2023-04-25 14:19:26 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f10485f7a58>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 215ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 3814)
+
+
+Started POST "/register" for ::1 at 2023-04-25 14:20:20 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f10482622f8>, params: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "manuel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 236ms (Views: 0.5ms | ActiveRecord: 0.5ms | Allocations: 3720)
+
+
+Started POST "/login" for ::1 at 2023-04-25 14:21:06 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 665)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:21:06 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 1262ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 11587)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:21:30 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Completed 422 Unprocessable Entity in 3003ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 64452)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:21:59 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 422 Unprocessable Entity in 694ms (Views: 1.1ms | Allocations: 11658)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:22:11 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.24ms)
+Completed 422 Unprocessable Entity in 948ms (Views: 1.2ms | Allocations: 11916)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:23:27 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.7ms)
+Completed 200 OK in 5243ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 75723)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:23:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.37ms)
+Completed 200 OK in 4657ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 39603)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:29:12 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 9034ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 28326)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:29:24 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 422 Unprocessable Entity in 3661ms (Views: 1.2ms | Allocations: 28339)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:29:54 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.48ms)
+Completed 200 OK in 5562ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 75369)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:30:03 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.49ms)
+Completed 200 OK in 4563ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 39475)
+
+
+Started POST "/login" for ::1 at 2023-04-25 14:30:36 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 37ms (Views: 0.6ms | ActiveRecord: 1.6ms | Allocations: 18580)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:30:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.11ms)
+Completed 200 OK in 15297ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 39530)
+
+
+Started POST "/login" for ::1 at 2023-04-25 14:31:43 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 661)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:31:44 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.72ms)
+Completed 200 OK in 9812ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 39470)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:33:14 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.18ms)
+Completed 200 OK in 14814ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 39413)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:52:58 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.85ms)
+Completed 422 Unprocessable Entity in 10018ms (Views: 4.5ms | Allocations: 385)
+
+
+Started POST "/login" for ::1 at 2023-04-25 14:58:38 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.7ms | Allocations: 812)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 14:58:38 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.95ms)
+Completed 200 OK in 5860ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 39252)
+
+
