@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: flex-end;
     align-items: center;
-  background-color: #825c5c; /* changed to white */
+  background-color: lightgray; /* changed to white */
   color: #212b36; /* changed to dark gray */
   padding: 18px;
   font-size: 18px;
