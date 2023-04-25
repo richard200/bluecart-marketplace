@@ -129,23 +129,23 @@ class ScraperController < ApplicationController
       result
     end
 
-    jambo_url = "https://www.jamboshop.com/category/Mobile-Phones/2"
-      def scrape_jambo(jambo_url)
-      result = []
-      doc = Nokogiri::HTML(URI.open(jambo_url))
+    # jambo_url = "https://www.jamboshop.com/category/Mobile-Phones/2"
+    #   def scrape_jambo(jambo_url)
+    #   result = []
+    #   doc = Nokogiri::HTML(URI.open(jambo_url))
     
-        doc.css('.row .col-xs-6.col-sm-4.col-md-4.col-lg-3 .category-product.text-center').each do |item|
-      # doc.css('section.el-container main.el-main.main-el div.imgbox div.el-row div.el-col.el-col-6 div.grid-content.bg-purple.clearfix').each do |item|
-      #  image = item.css('img.img-responsive').attr('src').value
-      title = item.css('a.title h6.prd-title').text
-        price = item.css('.prd-price span.offer-price').text.strip
-        img = item.css('.thumbnail .img-responsive').attribute('src').value
+    #     doc.css('.row .col-xs-6.col-sm-4.col-md-4.col-lg-3 .category-product.text-center').each do |item|
+    #   # doc.css('section.el-container main.el-main.main-el div.imgbox div.el-row div.el-col.el-col-6 div.grid-content.bg-purple.clearfix').each do |item|
+    #   #  image = item.css('img.img-responsive').attr('src').value
+    #   title = item.css('a.title h6.prd-title').text
+    #     price = item.css('.prd-price span.offer-price').text.strip
+    #     img = item.css('.thumbnail .img-responsive').attribute('src').value
      
-        result << { :title => title, :price => price, :img => img}
-      end
+    #     result << { :title => title, :price => price, :img => img}
+    #   end
     
-      result
-    end
+    #   result
+    # end
     
   
   end

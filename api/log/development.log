@@ -4361,1409 +4361,1155 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 5078ms (Views: 3.1ms | Allocations: 39465)
 
 
-Started GET "/" for 127.0.0.1 at 2023-04-23 16:17:20 +0300
-Processing by Rails::WelcomeController#index as HTML
-  Rendering /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
-  Rendered /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 15.2ms | Allocations: 712)
-Completed 200 OK in 74ms (Views: 42.4ms | ActiveRecord: 0.0ms | Allocations: 3359)
+Started GET "/scrape" for ::1 at 2023-04-19 09:02:41 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1375ms (ActiveRecord: 0.0ms | Allocations: 46000)
 
 
-Started GET "/ws" for ::1 at 2023-04-23 16:17:42 +0300
   
-ActionController::RoutingError (No route matches [GET] "/ws"):
+NoMethodError (undefined method `value' for nil:NilClass):
   
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 16:18:08 +0300
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-19 09:02:42 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 3059ms (ActiveRecord: 0.0ms | Allocations: 29499)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-19 09:03:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5354ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 40257)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 09:03:10 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 953ms (ActiveRecord: 0.0ms | Allocations: 11573)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-19 09:03:11 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4057ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 40402)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 09:03:20 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-19 09:03:24 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4046ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 41038)
+
+
+Completed 200 OK in 4916ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 52909)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 09:03:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 3986ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 39657)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-19 10:55:48 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 4008ms (ActiveRecord: 0.0ms | Allocations: 63622)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-19 10:56:02 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4765ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 39510)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 10:56:07 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 649ms (ActiveRecord: 0.0ms | Allocations: 11616)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-19 10:56:12 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 919ms (ActiveRecord: 0.0ms | Allocations: 11650)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-19 10:56:41 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2927ms (ActiveRecord: 0.0ms | Allocations: 28180)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-19 11:04:31 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5865ms (Views: 9.3ms | Allocations: 39542)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:04:42 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4784ms (Views: 5.2ms | Allocations: 39565)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:04:47 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 2831ms (Allocations: 28261)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for ::1 at 2023-04-19 11:04:58 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-19 11:05:01 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-19 11:05:01 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4664ms (Views: 9.9ms | Allocations: 62719)
+
+
+Completed 500 Internal Server Error in 11997ms (Allocations: 45115)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:39:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Completed 500 Internal Server Error in 12036ms (Allocations: 62063)
+
+
+  
+SocketError (Failed to open TCP connection to www.jumia.co.ke:443 (getaddrinfo: Temporary failure in name resolution)):
+  
+app/controllers/scraper_controller.rb:39:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+Started GET "/scrape" for 127.0.0.1 at 2023-04-19 11:05:21 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4718ms (Views: 7.8ms | Allocations: 39648)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:05:38 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4297ms (Views: 3.0ms | Allocations: 39967)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:05:43 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4217ms (Views: 3.5ms | Allocations: 39793)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:06:09 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 946ms (Allocations: 11661)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-19 11:06:10 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5124ms (Views: 3.0ms | Allocations: 40374)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:36:20 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 5148ms (Views: 8.0ms | Allocations: 39682)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 11:36:25 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4008ms (Views: 7.8ms | Allocations: 40127)
+
+
+Started GET "/scrape" for ::1 at 2023-04-19 12:22:47 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 1047ms (Allocations: 11692)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
+app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
+app/controllers/scraper_controller.rb:17:in `index'
+Started GET "/scrape" for ::1 at 2023-04-19 12:23:03 +0300
+Processing by ScraperController#index as */*
+Completed 500 Internal Server Error in 3523ms (Allocations: 28352)
+
+
+  
+NoMethodError (undefined method `value' for nil:NilClass):
+  
+app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
+app/controllers/scraper_controller.rb:41:in `scrape_jumia'
+app/controllers/scraper_controller.rb:20:in `index'
+  [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230419093649)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar NOT NULL, "email" varchar NOT NULL, "password_digest" varchar NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230419093649"]]
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-19 09:39:32.769834"], ["updated_at", "2023-04-19 09:39:32.769834"]]
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/register" for 127.0.0.1 at 2023-04-19 12:44:59 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fd3e4b05620>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "richard"], ["email", "rich@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-19 09:45:00.305405"], ["updated_at", "2023-04-19 09:45:00.305405"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "richard"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.67ms)
+Completed 201 Created in 309ms (Views: 3.9ms | ActiveRecord: 5.9ms | Allocations: 42570)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:45:24 +0300
+  
+ActionController::RoutingError (uninitialized constant SessionController
+Did you mean?  SessionsController):
+  
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:45:43 +0300
+  
+Zeitwerk::NameError (expected file /home/user/Development/code/phase5/bluecart-marketplace/api/app/controllers/sessions_controller.rb to define constant SessionsController, but didn't):
+  
+zeitwerk (2.6.7) lib/zeitwerk/loader/callbacks.rb:25:in `on_file_autoloaded'
+zeitwerk (2.6.7) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (7.0.4.3) lib/active_support/inflector/methods.rb:280:in `const_get'
+activesupport (7.0.4.3) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (7.0.4.3) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.0.4.3) lib/action_dispatch/http/request.rb:90:in `controller_class_for'
+actionpack (7.0.4.3) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (7.0.4.3) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (7.0.4.3) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (7.0.4.3) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (7.0.4.3) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (7.0.4.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.3) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.6.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4.3) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.3) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.3) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (2.0.1) lib/rack/cors.rb:102:in `call'
+railties (7.0.4.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:46:27 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:3:in `create'
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 2.9ms | Allocations: 4013)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:47:41 +0300
+  
+TypeError (superclass mismatch for class SessionController):
+  
+app/controllers/sessions_controller.rb:1:in `<top (required)>'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:47:55 +0300
+Processing by SessionsController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:3:in `create'
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.6ms | Allocations: 3181)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:49:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:3:in `create'
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 2.7ms | Allocations: 39547)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started POST "/register" for 127.0.0.1 at 2023-04-19 12:49:55 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007ffba000ec60>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+Completed 422 Unprocessable Entity in 249ms (ActiveRecord: 0.7ms | Allocations: 6023)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Username has already been taken, Email has already been taken):
+  
+app/controllers/users_controller.rb:41:in `create'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:50:09 +0300
+Processing by SessionsController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:3:in `create'
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 539)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:51:10 +0300
+Processing by SessionsController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:3:in `create'
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.6ms | Allocations: 539)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230419093649)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20230419093649"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230419093649)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar NOT NULL, "email" varchar NOT NULL, "password_digest" varchar NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230419093649"]]
+  [1m[36mTRANSACTION (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/register" for 127.0.0.1 at 2023-04-19 12:53:02 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f17c0b9a210>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "richard"], ["email", "rich@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-19 09:53:02.547347"], ["updated_at", "2023-04-19 09:53:02.547347"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "richard"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.37ms)
+Completed 201 Created in 261ms (Views: 2.5ms | ActiveRecord: 5.2ms | Allocations: 42568)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:53:08 +0300
+  
+ActionController::RoutingError (uninitialized constant SessionsController
+Did you mean?  SessionController):
+  
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:53:32 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.0ms | Allocations: 4028)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/session_controller.rb:4:in `create'
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:54:58 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 31ms (Views: 0.9ms | ActiveRecord: 18.7ms | Allocations: 3396)
+
+
+Started POST "/register" for 127.0.0.1 at 2023-04-19 12:55:10 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f4444b591d8>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 257ms (Views: 2.5ms | ActiveRecord: 1.1ms | Allocations: 43439)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:55:13 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 422 Unprocessable Entity in 17ms (Views: 1.9ms | ActiveRecord: 0.8ms | Allocations: 1594)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-19 12:57:01 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 39ms (Views: 2.0ms | ActiveRecord: 1.1ms | Allocations: 39889)
+
+
+Started GET "/check" for 127.0.0.1 at 2023-04-19 12:57:17 +0300
+Processing by SessionController#check as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 365)
+
+
+Started DELETE "/check" for 127.0.0.1 at 2023-04-19 14:10:15 +0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/check"):
+  
+Started DELETE "/check" for 127.0.0.1 at 2023-04-19 14:10:48 +0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/check"):
+  
+Started DELETE "/logout" for 127.0.0.1 at 2023-04-19 14:11:00 +0300
+Processing by SessionController#destroy as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 1ms (Allocations: 235)
+
+
+Started GET "/check" for 127.0.0.1 at 2023-04-19 14:11:05 +0300
+Processing by SessionController#check as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.31ms)
+Completed 200 OK in 7ms (Views: 4.0ms | Allocations: 444)
+
+
+Started POST "/register" for 127.0.0.1 at 2023-04-19 14:26:59 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fc27c06f770>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 221ms (Views: 0.9ms | ActiveRecord: 1.1ms | Allocations: 7377)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-19 14:27:50 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.34ms)
+Completed 200 OK in 12ms (Views: 2.1ms | ActiveRecord: 0.9ms | Allocations: 945)
+
+
+Started GET "/check" for 127.0.0.1 at 2023-04-19 14:28:01 +0300
+Processing by SessionController#check as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.35ms)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 356)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2023-04-19 14:28:10 +0300
+Processing by SessionController#destroy as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 223)
+
+
+Started GET "/check" for 127.0.0.1 at 2023-04-19 14:28:14 +0300
+Processing by SessionController#check as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 357)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-20 00:02:44 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.57ms)
+Completed 422 Unprocessable Entity in 41241ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 34336)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-22 15:53:38 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (19.34ms)
+Completed 200 OK in 4620ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 75339)
+
+
+Started GET "/scrape" for ::1 at 2023-04-22 15:58:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 4434ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 28647)
+
+
+Started GET "/scrape" for ::1 at 2023-04-22 15:58:41 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.7ms)
+Completed 200 OK in 6234ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 39327)
+
+
+Started GET "/scrape" for ::1 at 2023-04-22 15:59:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 422 Unprocessable Entity in 1746ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 11870)
+
+
+Started GET "/scrape" for ::1 at 2023-04-22 15:59:10 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.23ms)
+Completed 200 OK in 6493ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 39330)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 20:02:42 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.35ms)
+Completed 200 OK in 5280ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 75378)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 20:02:48 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 467ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 11754)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 20:02:58 +0300
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.97ms)
+Completed 200 OK in 5119ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 39558)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 20:03:07 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.59ms)
+Completed 200 OK in 8106ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 39554)
+
+
+Started GET "/scrape" for ::1 at 2023-04-23 20:03:15 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 422 Unprocessable Entity in 932ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 11543)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 20:03:28 +0300
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 422 Unprocessable Entity in 502ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 11771)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 20:03:46 +0300
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 422 Unprocessable Entity in 532ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 11507)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-23 20:04:11 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 422 Unprocessable Entity in 3015ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 64550)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 08:18:54 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.42ms)
+Completed 422 Unprocessable Entity in 1122ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 46669)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 08:19:44 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 884ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 11782)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 08:20:26 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 3851ms (Views: 0.8ms | Allocations: 29728)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 08:22:26 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.57ms)
+Completed 200 OK in 4451ms (Views: 9.3ms | Allocations: 39672)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 08:22:58 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.29ms)
+Completed 200 OK in 3875ms (Views: 3.7ms | Allocations: 39436)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 08:23:02 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.39ms)
+Completed 200 OK in 3985ms (Views: 3.8ms | Allocations: 39578)
+
+
+Started POST "/register" for 127.0.0.1 at 2023-04-25 08:43:00 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f11151766c8>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 422 Unprocessable Entity in 258ms (Views: 1.4ms | ActiveRecord: 2.5ms | Allocations: 22597)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-25 08:44:19 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 1009)
+
+
+Started GET "/check" for 127.0.0.1 at 2023-04-25 08:44:45 +0300
+Processing by SessionController#check as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.34ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 351)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 10:53:58 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-25 10:54:18 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 3546ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 30938)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 63465ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 94512)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 10:55:22 +0300
+Processing by ScraperController#index as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (14.42ms)
+Completed 200 OK in 4556ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 39606)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 10:55:48 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.22ms)
+Completed 200 OK in 4664ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 39633)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 10:55:53 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 2924ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 28488)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 10:56:29 +0300
 Processing by ScraperController#index as HTML
-Completed 200 OK in 4782ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 55184)
-
-
-Started GET "/favicon.ico" for 127.0.0.1 at 2023-04-23 16:18:13 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
-  
-Started GET "/ws" for ::1 at 2023-04-23 16:19:51 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/ws"):
-  
-Started GET "/products?query=Freeyond" for ::1 at 2023-04-23 16:20:45 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/products"):
-  
-Started GET "/favicon.ico" for ::1 at 2023-04-23 16:20:45 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
-  
-Started GET "/" for ::1 at 2023-04-23 16:23:40 +0300
-Processing by Rails::WelcomeController#index as HTML
-  Rendering /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
-  Rendered /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 449)
-Completed 200 OK in 7ms (Views: 5.0ms | Allocations: 1152)
-
-
-Started GET "/" for ::1 at 2023-04-23 16:23:57 +0300
-Processing by Rails::WelcomeController#index as HTML
-  Rendering /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
-  Rendered /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 15)
-Completed 200 OK in 3ms (Views: 2.1ms | Allocations: 186)
-
-
-Started GET "/" for ::1 at 2023-04-23 16:23:58 +0300
-Processing by Rails::WelcomeController#index as HTML
-  Rendering /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
-  Rendered /home/glory/.rvm/gems/ruby-2.7.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 15)
-Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 186)
-
-
-Started GET "/scrape/title" for 127.0.0.1 at 2023-04-23 16:56:23 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/title"):
-  
-Started GET "/scrape/title" for 127.0.0.1 at 2023-04-23 16:56:27 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/title"):
-  
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 16:56:33 +0300
-Processing by ScraperController#index as HTML
-Completed 500 Internal Server Error in 1005ms (Allocations: 11666)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 16:56:41 +0300
-Processing by ScraperController#index as HTML
-Completed 200 OK in 4003ms (Views: 5.2ms | Allocations: 39465)
-
-
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 17:02:10 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4828ms (Views: 8.8ms | Allocations: 39268)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 18:50:54 +0300
-Processing by ScraperController#index as HTML
-Completed 200 OK in 4145ms (Views: 37.5ms | Allocations: 39473)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 18:51:23 +0300
-Processing by ScraperController#index as HTML
-Completed 200 OK in 3868ms (Views: 5.7ms | Allocations: 39172)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 18:53:38 +0300
-Processing by ScraperController#index as HTML
-Completed 500 Internal Server Error in 730ms (Allocations: 11465)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 18:54:11 +0300
-Processing by ScraperController#index as HTML
-Completed 500 Internal Server Error in 887ms (Allocations: 11469)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape/samsung" for 127.0.0.1 at 2023-04-23 19:02:57 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/samsung"):
-  
-Started GET "/scrape/title" for 127.0.0.1 at 2023-04-23 19:03:33 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/title"):
-  
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 19:18:13 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5137ms (Views: 3.9ms | Allocations: 39581)
-
-
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 20:16:48 +0300
-Processing by ScraperController#index as HTML
-Completed 500 Internal Server Error in 965ms (Allocations: 11397)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 20:17:39 +0300
-Processing by ScraperController#index as HTML
-Completed 200 OK in 3588ms (Views: 7.8ms | Allocations: 39387)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 20:23:55 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2544ms (Allocations: 28023)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:05:18 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5920ms (Views: 6.4ms | Allocations: 39005)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:15:43 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5738ms (Views: 6.8ms | Allocations: 39177)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:16:22 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 1351ms (Allocations: 11344)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape/games" for 127.0.0.1 at 2023-04-23 21:17:18 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/games"):
-  
-Started GET "/scrape/Games" for 127.0.0.1 at 2023-04-23 21:17:23 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/Games"):
-  
-Started GET "/scrape" for 127.0.0.1 at 2023-04-23 21:17:30 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5883ms (Views: 4.2ms | Allocations: 39052)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:17:43 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5265ms (Views: 3.3ms | Allocations: 39181)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:17:59 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 6048ms (Views: 4.2ms | Allocations: 39047)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:21:32 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4164ms (Views: 7.5ms | Allocations: 39128)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:31:21 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4505ms (Views: 5.2ms | Allocations: 39123)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:32:08 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3697ms (Views: 3.5ms | Allocations: 39290)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:33:49 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3735ms (Views: 3.4ms | Allocations: 39108)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:33:53 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2587ms (Allocations: 28134)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:34:26 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4664ms (Views: 7.4ms | Allocations: 39487)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:34:35 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3515ms (Views: 9.5ms | Allocations: 39152)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:35:28 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 708ms (Allocations: 11628)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:35:33 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2401ms (Allocations: 28212)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:44:36 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 874ms (Allocations: 11425)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:47:41 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 1002ms (Allocations: 11380)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:48:14 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2899ms (Allocations: 27838)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:48:25 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 774ms (Allocations: 11347)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:48:48 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3823ms (Views: 6.9ms | Allocations: 39303)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:51:42 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3784ms (Views: 6.0ms | Allocations: 39058)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:51:46 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3777ms (Views: 3.8ms | Allocations: 39435)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:52:20 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3725ms (Views: 8.8ms | Allocations: 39393)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 21:52:24 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 807ms (Allocations: 11398)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:52:36 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 736ms (Allocations: 11609)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:52:46 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2694ms (Allocations: 28189)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 21:56:09 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 965ms (Allocations: 11327)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 22:18:17 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4272ms (Views: 26.1ms | Allocations: 39633)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 22:25:13 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4469ms (Views: 5.0ms | Allocations: 39291)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 22:30:18 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3303ms (Allocations: 28046)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 22:31:06 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3738ms (Views: 6.0ms | Allocations: 39335)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 23:07:09 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3727ms (Allocations: 28369)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 23:29:03 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4330ms (Views: 3.5ms | Allocations: 39194)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 23:40:29 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 965ms (Allocations: 11563)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 23:40:34 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4052ms (Views: 22.2ms | Allocations: 39404)
-
-
-Started GET "/scrape" for ::1 at 2023-04-23 23:50:19 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3301ms (Allocations: 28324)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 23:57:01 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 1086ms (Allocations: 11516)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-23 23:57:27 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4315ms (Views: 4.2ms | Allocations: 39409)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:02:51 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 1136ms (Allocations: 11386)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:02:53 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5829ms (Views: 42.6ms | Allocations: 39461)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:03:47 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4111ms (Views: 3.4ms | Allocations: 39412)
-
-
-Started GET "/games" for 127.0.0.1 at 2023-04-24 00:04:23 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/games"):
-  
-Started GET "/scrape/games" for 127.0.0.1 at 2023-04-24 00:04:37 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/games"):
-  
-Started GET "/scrape" for 127.0.0.1 at 2023-04-24 00:04:43 +0300
-Processing by ScraperController#index as HTML
-Completed 200 OK in 4366ms (Views: 9.2ms | Allocations: 39381)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:09:04 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5221ms (Views: 50.5ms | Allocations: 39397)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:09:14 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3733ms (Views: 3.6ms | Allocations: 39573)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:12:19 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3994ms (Views: 13.9ms | Allocations: 39244)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:12:23 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4758ms (Views: 3.8ms | Allocations: 39355)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:12:28 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 713ms (Allocations: 11574)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:12:28 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 683ms (Allocations: 11664)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:19 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4396ms (Views: 8.1ms | Allocations: 39144)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:23 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4574ms (Views: 19.5ms | Allocations: 39637)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:28 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3596ms (Views: 4.3ms | Allocations: 39636)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:32 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 686ms (Allocations: 11617)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:32 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4741ms (Views: 6.1ms | Allocations: 39261)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:37 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4053ms (Views: 5.2ms | Allocations: 39335)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:41 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 688ms (Allocations: 11447)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:42 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3930ms (Views: 7.4ms | Allocations: 39364)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:46 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4248ms (Views: 5.4ms | Allocations: 39266)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:50 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3818ms (Views: 7.8ms | Allocations: 39615)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:54 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 659ms (Allocations: 11640)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:13:54 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5312ms (Views: 6.1ms | Allocations: 39504)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:00 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3764ms (Views: 4.7ms | Allocations: 39472)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:04 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2779ms (Allocations: 28441)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:06 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3815ms (Views: 13.2ms | Allocations: 39202)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:10 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3674ms (Views: 8.5ms | Allocations: 39288)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:14 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3822ms (Views: 6.0ms | Allocations: 39588)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:18 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 649ms (Allocations: 11478)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:18 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4012ms (Views: 16.7ms | Allocations: 39632)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:22 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2664ms (Allocations: 28418)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:26 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4574ms (Views: 6.9ms | Allocations: 39302)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:31 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2612ms (Allocations: 28362)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:33 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3938ms (Views: 9.2ms | Allocations: 39635)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:37 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3959ms (Views: 7.4ms | Allocations: 39618)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:47 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 666ms (Allocations: 11656)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:48 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2509ms (Allocations: 28274)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:50 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3585ms (Views: 7.8ms | Allocations: 39540)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:54 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3683ms (Views: 8.3ms | Allocations: 39544)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:14:59 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 712ms (Allocations: 11637)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:15:00 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3683ms (Views: 5.3ms | Allocations: 39470)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:15:07 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3781ms (Views: 11.3ms | Allocations: 39575)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:15:11 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4051ms (Views: 3.5ms | Allocations: 39394)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:15:51 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3704ms (Views: 8.8ms | Allocations: 39577)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:15:55 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3762ms (Views: 6.1ms | Allocations: 39441)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:18:27 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 991ms (Allocations: 11613)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:18:28 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4224ms (Views: 8.0ms | Allocations: 39893)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:23:11 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3613ms (Views: 6.6ms | Allocations: 39560)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:23:15 +0300
-Processing by ScraperController#index as */*
-Started GET "/scrape" for ::1 at 2023-04-24 00:23:17 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 885ms (Allocations: 22743)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:23:18 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3654ms (Views: 5.1ms | Allocations: 68853)
-
-
-Completed 500 Internal Server Error in 782ms (Allocations: 23514)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:25:17 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2930ms (Allocations: 28213)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:25:20 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 631ms (Allocations: 11609)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:25:21 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3622ms (Views: 8.0ms | Allocations: 39689)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:25:24 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3689ms (Views: 4.3ms | Allocations: 39949)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:31:53 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4750ms (Views: 3.3ms | Allocations: 39703)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:31:58 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3770ms (Views: 3.3ms | Allocations: 39573)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:32:04 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3908ms (Views: 10.6ms | Allocations: 39931)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:33:01 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3716ms (Views: 9.0ms | Allocations: 39703)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:33:17 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4005ms (Views: 6.5ms | Allocations: 39551)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:34:45 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2700ms (Allocations: 28258)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:34:55 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2598ms (Allocations: 28308)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:48:47 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3797ms (Views: 3.8ms | Allocations: 39650)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:49:22 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 830ms (Allocations: 11650)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:49:26 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4100ms (Views: 5.1ms | Allocations: 39461)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:50:05 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3651ms (Views: 3.8ms | Allocations: 39575)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:52:42 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3389ms (Allocations: 28067)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:52:45 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3533ms (Views: 6.1ms | Allocations: 39590)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:52:52 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4102ms (Views: 15.2ms | Allocations: 39570)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:01 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3742ms (Views: 3.7ms | Allocations: 39535)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:07 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 5170ms (Views: 7.6ms | Allocations: 39817)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:12 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 862ms (Allocations: 11690)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:13 +0300
-Processing by ScraperController#index as */*
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:15 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 852ms (Allocations: 14898)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Completed 200 OK in 4176ms (Views: 7.6ms | Allocations: 64815)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:29 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 774ms (Allocations: 11586)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:31 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3713ms (Views: 5.1ms | Allocations: 39829)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:53:38 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3973ms (Views: 3.4ms | Allocations: 39839)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:55:01 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3892ms (Views: 3.3ms | Allocations: 39469)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 00:55:05 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 10:57:05 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 679ms (Allocations: 11586)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:55:24 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 10:57:22 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3830ms (Views: 6.0ms | Allocations: 39776)
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 18679ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 45312)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 00:55:30 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 10:57:24 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2572ms (Allocations: 28530)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 1010ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 23242)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:55:40 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2569ms (Allocations: 28131)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (13.48ms)
+Completed 200 OK in 4157ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 74264)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:55:53 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3798ms (Views: 6.5ms | Allocations: 39945)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.44ms)
+Completed 200 OK in 57423ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 122129)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 00:56:05 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 10:57:30 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3628ms (Views: 6.3ms | Allocations: 39632)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 18542ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 28652)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 00:56:11 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 10:57:48 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 755ms (Allocations: 11652)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:59:34 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 10:58:16 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 1439ms (Allocations: 11516)
-
-
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 00:59:38 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 10:58:36 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3776ms (Allocations: 11394)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.36ms)
+Completed 422 Unprocessable Entity in 49607ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 31215)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape/jumiagames" for 127.0.0.1 at 2023-04-24 01:00:51 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/jumiagames"):
-  
-Started GET "/scrape/jumia_games" for 127.0.0.1 at 2023-04-24 01:01:10 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/scrape/jumia_games"):
-  
-Started GET "/scrape" for 127.0.0.1 at 2023-04-24 01:01:21 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 683ms (Allocations: 11724)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.3ms)
+Completed 200 OK in 10864ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 40841)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:01:51 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3800ms (Views: 4.7ms | Allocations: 39884)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.07ms)
+Completed 200 OK in 41965ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 81542)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:01:56 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:05:46 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 4489ms (Views: 6.1ms | Allocations: 39808)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 422 Unprocessable Entity in 10010ms (Views: 0.8ms | Allocations: 377)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:02:06 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:06:11 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3682ms (Views: 5.2ms | Allocations: 39903)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.55ms)
+Completed 200 OK in 4713ms (Views: 9.7ms | Allocations: 39642)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:02:18 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:06:16 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3695ms (Views: 4.4ms | Allocations: 39593)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 12093ms (Views: 0.8ms | Allocations: 16431)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:02:25 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:06:28 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3765ms (Views: 3.9ms | Allocations: 39490)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.57ms)
+Completed 422 Unprocessable Entity in 18944ms (Views: 3.1ms | Allocations: 27753)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:19:25 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:08:35 +0300
 Processing by ScraperController#index as */*
-Started GET "/scrape" for ::1 at 2023-04-24 01:19:26 +0300
-Processing by ScraperController#index as */*
-Started GET "/scrape" for ::1 at 2023-04-24 01:19:27 +0300
-Processing by ScraperController#index as */*
-Started GET "/scrape" for ::1 at 2023-04-24 01:19:29 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4157ms (Views: 4.6ms | Allocations: 87594)
-
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (11.97ms)
+Completed 200 OK in 19956ms (Views: 12.6ms | Allocations: 39669)
 
-Completed 200 OK in 3527ms (Views: 4.4ms | Allocations: 107222)
 
-
-Completed 200 OK in 3978ms (Views: 6.1ms | Allocations: 120366)
-
-
-Completed 200 OK in 3716ms (Views: 5.6ms | Allocations: 97615)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 01:19:41 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:08:55 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3733ms (Views: 6.7ms | Allocations: 39689)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.13ms)
+Completed 200 OK in 4374ms (Views: 4.5ms | Allocations: 39269)
 
 
-Started GET "/scrape" for 127.0.0.1 at 2023-04-24 01:20:00 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:09:01 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 4023ms (Views: 9.0ms | Allocations: 39253)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.57ms)
+Completed 200 OK in 3767ms (Views: 4.1ms | Allocations: 39197)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:20:28 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:09:04 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 737ms (Allocations: 11561)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.26ms)
+Completed 200 OK in 4475ms (Views: 8.0ms | Allocations: 39412)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:20:38 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 11:20:25 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3869ms (Views: 10.7ms | Allocations: 39540)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 422 Unprocessable Entity in 11174ms (Views: 1.7ms | Allocations: 11087)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:20:48 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 686ms (Allocations: 11728)
+Started GET "/scrape" for ::1 at 2023-04-25 11:20:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.32ms)
+Completed 200 OK in 9615ms (Views: 5.9ms | Allocations: 39481)
+
+
+Started POST "/register" for ::1 at 2023-04-25 14:11:28 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"gabriel", "email"=>"gab@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"gabriel", "email"=>"gab@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f104c6a9d80>, params: {"username"=>"gabriel", "email"=>"gab@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"gabriel", "email"=>"gab@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "gabriel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gab@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "gabriel"], ["email", "gab@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-25 11:11:29.373248"], ["updated_at", "2023-04-25 11:11:29.373248"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "gabriel"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "gab@gmail.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.34ms)
+Completed 201 Created in 294ms (Views: 4.7ms | ActiveRecord: 5.7ms | Allocations: 42594)
+
+
+Started GET "/login" for ::1 at 2023-04-25 14:11:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started POST "/register" for ::1 at 2023-04-25 14:16:48 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f104000e540>, params: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "manuel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "manuel"], ["email", "manu@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-25 11:16:48.684531"], ["updated_at", "2023-04-25 11:16:48.684531"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "manuel"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.22ms)
+Completed 201 Created in 284ms (Views: 0.8ms | ActiveRecord: 4.9ms | Allocations: 4712)
+
+
+Started GET "/login" for ::1 at 2023-04-25 14:16:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+Started POST "/register" for ::1 at 2023-04-25 14:18:03 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f104400bd78>, params: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "manuel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 217ms (Views: 0.5ms | ActiveRecord: 0.4ms | Allocations: 5840)
 
 
+Started GET "/login" for ::1 at 2023-04-25 14:18:03 +0300
   
-NoMethodError (undefined method `value' for nil:NilClass):
+ActionController::RoutingError (No route matches [GET] "/login"):
   
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:21:41 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:18:31 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3861ms (Views: 5.9ms | Allocations: 39080)
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "scraper"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 422 Unprocessable Entity in 4371ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 43353)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:21:45 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3720ms (Views: 5.4ms | Allocations: 39668)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 01:21:50 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3797ms (Views: 5.1ms | Allocations: 39392)
+Started POST "/login" for 127.0.0.1 at 2023-04-25 14:18:55 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 200 OK in 15ms (Views: 1.9ms | ActiveRecord: 6.0ms | Allocations: 1075)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:22:36 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2638ms (Allocations: 28295)
+Started POST "/register" for 127.0.0.1 at 2023-04-25 14:19:26 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f10485f7a58>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 215ms (Views: 0.8ms | ActiveRecord: 0.6ms | Allocations: 3814)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:23:43 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3777ms (Views: 6.7ms | Allocations: 38967)
+Started POST "/register" for ::1 at 2023-04-25 14:20:20 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007f10482622f8>, params: {"username"=>"manuel", "email"=>"manu@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"manuel", "email"=>"manu@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "manuel"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 236ms (Views: 0.5ms | ActiveRecord: 0.5ms | Allocations: 3720)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:23:48 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4103ms (Views: 7.6ms | Allocations: 39484)
+Started POST "/login" for ::1 at 2023-04-25 14:21:06 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 665)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:24:08 +0300
-Processing by ScraperController#index as */*
-Started GET "/scrape" for ::1 at 2023-04-24 01:24:12 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:21:06 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3756ms (Views: 5.3ms | Allocations: 40855)
-
-
-Completed 200 OK in 3672ms (Views: 9.0ms | Allocations: 51568)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 1262ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 11587)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:25:14 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:21:30 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3079ms (Allocations: 28468)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Completed 422 Unprocessable Entity in 3003ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 64452)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:25:25 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:21:59 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 724ms (Allocations: 11721)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 422 Unprocessable Entity in 694ms (Views: 1.1ms | Allocations: 11658)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:25:43 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:22:11 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3936ms (Views: 7.3ms | Allocations: 39362)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.24ms)
+Completed 422 Unprocessable Entity in 948ms (Views: 1.2ms | Allocations: 11916)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:48:21 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:23:27 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by ScraperController#index as */*
-Completed 200 OK in 4682ms (Views: 6.5ms | Allocations: 39454)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.7ms)
+Completed 200 OK in 5243ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 75723)
 
 
-Started GET "/products" for ::1 at 2023-04-24 01:50:44 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/products"):
-  
-Started GET "/products" for ::1 at 2023-04-24 01:51:25 +0300
-  
-ActionController::RoutingError (No route matches [GET] "/products"):
-  
-Started GET "/scrape" for ::1 at 2023-04-24 01:51:33 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:23:36 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3930ms (Views: 9.5ms | Allocations: 39570)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.37ms)
+Completed 200 OK in 4657ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 39603)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:52:08 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:29:12 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2538ms (Allocations: 28288)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 9034ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 28326)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:52:14 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:29:24 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 5025ms (Views: 13.5ms | Allocations: 39626)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 422 Unprocessable Entity in 3661ms (Views: 1.2ms | Allocations: 28339)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:52:37 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 14:29:54 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by ScraperController#index as */*
-Completed 200 OK in 4061ms (Views: 7.2ms | Allocations: 39399)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.48ms)
+Completed 200 OK in 5562ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 75369)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:52:47 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:30:03 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3855ms (Views: 7.4ms | Allocations: 39464)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.49ms)
+Completed 200 OK in 4563ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 39475)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:52:55 +0300
-Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 728ms (Allocations: 11680)
+Started POST "/login" for ::1 at 2023-04-25 14:30:36 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 200 OK in 37ms (Views: 0.6ms | ActiveRecord: 1.6ms | Allocations: 18580)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:53:14 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:30:36 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 757ms (Allocations: 11417)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.11ms)
+Completed 200 OK in 15297ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 39530)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 01:54:16 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4182ms (Views: 5.5ms | Allocations: 39631)
+Started POST "/login" for ::1 at 2023-04-25 14:31:43 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 200 OK in 13ms (Views: 0.8ms | ActiveRecord: 0.4ms | Allocations: 661)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:57:05 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:31:44 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 4045ms (Views: 6.2ms | Allocations: 39380)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.72ms)
+Completed 200 OK in 9812ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 39470)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:57:35 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:33:14 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 3638ms (Views: 7.1ms | Allocations: 39385)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.18ms)
+Completed 200 OK in 14814ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 39413)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 01:58:58 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:52:58 +0300
 Processing by ScraperController#index as */*
-Completed 200 OK in 4114ms (Views: 6.8ms | Allocations: 39702)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.85ms)
+Completed 422 Unprocessable Entity in 10018ms (Views: 4.5ms | Allocations: 385)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 02:01:09 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4227ms (Views: 7.4ms | Allocations: 39368)
+Started POST "/login" for ::1 at 2023-04-25 14:58:38 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"manu@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"manu@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manu@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.7ms | Allocations: 812)
 
 
-Started GET "/scrape" for ::1 at 2023-04-24 02:22:27 +0300
+Started GET "/scrape" for ::1 at 2023-04-25 14:58:38 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 817ms (Allocations: 11612)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.95ms)
+Completed 200 OK in 5860ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 39252)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:70:in `block in scrape_jumia_games'
-app/controllers/scraper_controller.rb:63:in `scrape_jumia_games'
-app/controllers/scraper_controller.rb:17:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 02:22:55 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 17:14:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 3012ms (Allocations: 28468)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.48ms)
+Completed 422 Unprocessable Entity in 3610ms (Views: 60.6ms | ActiveRecord: 0.0ms | Allocations: 64647)
 
 
-  
-NoMethodError (undefined method `value' for nil:NilClass):
-  
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 02:23:25 +0300
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 17:14:41 +0300
 Processing by ScraperController#index as */*
-Completed 500 Internal Server Error in 2450ms (Allocations: 28288)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (17.39ms)
+Completed 200 OK in 4118ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 39567)
 
 
+Started GET "/login" for 127.0.0.1 at 2023-04-25 17:15:04 +0300
   
-NoMethodError (undefined method `value' for nil:NilClass):
+ActionController::RoutingError (No route matches [GET] "/login"):
   
-app/controllers/scraper_controller.rb:48:in `block in scrape_jumia'
-app/controllers/scraper_controller.rb:41:in `scrape_jumia'
-app/controllers/scraper_controller.rb:20:in `index'
-Started GET "/scrape" for ::1 at 2023-04-24 02:25:27 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3817ms (Views: 5.5ms | Allocations: 39557)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 02:25:49 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3682ms (Views: 10.0ms | Allocations: 39640)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 02:27:21 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 3705ms (Views: 3.9ms | Allocations: 39573)
-
-
-Started GET "/scrape" for ::1 at 2023-04-24 02:35:39 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4185ms (Views: 6.8ms | Allocations: 39533)
-
-
-Started GET "/scrape" for ::1 at 2023-04-25 11:46:49 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4342ms (Views: 4.2ms | Allocations: 39580)
-
-
-Started GET "/scrape" for ::1 at 2023-04-25 12:04:29 +0300
-Processing by ScraperController#index as */*
-Completed 200 OK in 4234ms (Views: 4.5ms | Allocations: 39609)
+Started POST "/login" for 127.0.0.1 at 2023-04-25 17:15:17 +0300
+Processing by SessionController#create as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 422 Unprocessable Entity in 46ms (Views: 1.1ms | ActiveRecord: 1.3ms | Allocations: 3257)
 
 
