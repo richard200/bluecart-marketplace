@@ -102,7 +102,6 @@
 
 import React, { useState } from 'react';
 
-
 function Signup() {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');

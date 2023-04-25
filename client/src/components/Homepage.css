@@ -100,12 +100,17 @@
   
   /* Define the styles for the categories class */
   .categories {
+    padding-top: 100px;
     margin-top: 80px;
     margin-bottom: 40px;
+  }
+  .categories-h1{
+    padding-top: 100px;
   }
   
   /* Define the styles for the categories-grid class */
   .categories-grid {
+    padding-top: 150px;
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -114,6 +119,7 @@
   
   /* Define the styles for the category-card class */
   .category-card {
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -214,6 +220,7 @@
   }
 
   .register {
+    padding-top: 100px;
     margin: 0 auto;
     max-width: 600px;
     padding: 40px;
@@ -223,6 +230,7 @@
   }
   
   .register h2 {
+    padding-top: 100px;
     margin: 0 0 20px;
     font-size: 28px;
     font-weight: 700;
@@ -237,6 +245,7 @@
   }
   
   .register input[type="email"], [type="password"], [type="text"]{
+    padding-top: 100px;
     display: block;
     width: 100%;
     padding: 10px;
@@ -245,7 +254,7 @@
     font-weight: 400;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-shadow: none;
+    box-shadow:none;
   }
   
   .register button[type="submit"] {
@@ -257,7 +266,7 @@
     font-weight: 600;
     text-align: center;
     color: #fff;
-    background-color: #007bff;
+    background-color: #53708f;
     border: none;
     border-radius: 4px;
     box-shadow: none;
@@ -275,6 +284,7 @@
     }
     
     .register h2 {
+      padding-top: 100px;
       font-size: 24px;
     }
     
@@ -287,49 +297,71 @@
     }
   }
   /* Increase the spacing between the login form and header */
-.login {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 4rem auto;
-  max-width: 30rem;
-}
-
-/* Change the font size of the header */
-.login h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
-/* Change the font size and margin of the labels */
-.login label {
-  font-size: 1.5rem;
-  margin-bottom: 0.8rem;
-}
-
-/* Add a border and padding to the input fields */
-.login input [type="text"], [type="password"] {
-  font-size: 1.2rem;
-  padding: 0.8rem;
-  border: 2px solid #ccc;
-  border-radius: 0.5rem;
-  margin-bottom: 1.5rem;
-  width: 100%;
-}
-
-/* Change the font size and padding of the submit button */
-.login button {
-  font-size: 1.5rem;
-  padding: 0.8rem 2rem;
-  background-color: #0070f3;
-  color: #fff;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-/* Change the hover color of the submit button */
-.login button:hover {
-  background-color: #0056b3;
-}
+  .container {
+    padding-top: 50px;
+    margin-top: 5rem;
+  }
+  
+  .card-header {
+    background-color: #1a202c;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: arial;
+  }
+  
+  .card-body {
+    background-color: #f0f5f9;
+    padding: 2.5rem;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    color: #4a5568;
+  }
+  
+  .input {
+    border: none;
+    border-bottom: 1px solid #cbd5e0;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-bottom-color: #48bb78;
+  }
+  
+  .input:focus-within {
+    outline: none;
+  }
+  
+  .button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.375rem;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #4299e1;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .link {
+    color: #718096;
+  }
+  
+  .link:hover {
+    color: #2d3748;
+  }

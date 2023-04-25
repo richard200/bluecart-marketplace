@@ -18,6 +18,7 @@ const CardImage = styled.img`
 `;
 
 const CardBody = styled.div`
+  padding-top: 100px;
   padding: 15px;
 `;
 
@@ -27,7 +28,9 @@ const CardTitle = styled.h5`
   color: #333;
 `;
 
+
 const CardText = styled.p`
+
   font-size: 16px;
   color: #666;
 `;
@@ -41,6 +44,7 @@ const CardButton = styled.a`
 `;
 // Define a styled component for the card container
 const CardContainer = styled.div`
+padding-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 32%);
   justify-content: space-between;

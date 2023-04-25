@@ -1,13 +1,9 @@
-// 
-
-
-
-
-
 import React, { useState } from 'react';
 import { Card, Form, FormGroup, Label, Input, Button, Alert } from 'reactstrap';
 import { Link} from 'react-router-dom';
 
+// Import Tailwind CSS styles
+import 'tailwindcss/tailwind.css';
 
 function Login (props ) {
   const [email, setEmail] = useState('');
@@ -45,51 +41,27 @@ function Login (props ) {
         } else {
           // Display an error message to the user
         }
-      //   sessionStorage.setItem('userId', data.user_id);
-      //   // Call the onLogin callback with the user ID
-      //  props.onLogin()
-      //  window.location.href = '/addrecipe';
+    
       })
       .catch(error => {
         setShowAlert('Invalid email or password');
         
       });
     };
-  //   try {
-  //     const response = await fetch('/login', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify({ email, password }),
-  //     });
-  //     const data = await response.json();
-  //     console.log(data); // handle server response here
-  //     if (data) {
-  //       setShowAlert(true); // show success message
-  //       onLogin(data.user_id);
-  //       // you can store the token in local storage or cookies here
-  //       window.location.href = '/addrecipe'; // redirect to home page after successful login
-        
-  //     }
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // };
-
+ 
   return (
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-lg-10 col-md-8">
           <Card>
-            <div className="card-header">
+            <div className="card-header bg-green-800 text-white text-center text-xl font-bold">
               Login
             </div>
-            <div className="card-body">
+            <div className="card-body bg-gray-100 p-8">
               {showAlert && <Alert color="success">Logged in successfully!</Alert>}
               <Form onSubmit={handleSubmit}>
                 <FormGroup>
-                  <Label for="email">Username / Email</Label>
+                  <Label for="email" className="text-gray-700">Username / Email</Label>
                   <Input
                     type="text"
                     name="email"
@@ -97,10 +69,12 @@ function Login (props ) {
                     placeholder="Enter your email or username"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    className="border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:border-green-500 w-full sm:w-auto"
+                    
                   />
                 </FormGroup>
                 <FormGroup>
-                  <Label for="password">Password</Label>
+                  <Label for="password" className="text-gray-700">Password</Label>
                   <Input
                     type="password"
                     name="password"
@@ -108,24 +82,28 @@ function Login (props ) {
                     placeholder="Enter your password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   />
                 </FormGroup>
-                <Button type="submit" color="primary" className='btn-log'>
-                  Login
-                </Button>
+      
+                <Button type="submit" color="primary" className="w-full mt-4 py-3 rounded-md font-bold hover:bg-blue-600">Sign in</Button>
+                <FormGroup check>
+                  <Label check>
+                    <Input type="checkbox" name="remember" id="remember" />
+                    Remember me
+                  </Label>
+                </FormGroup>
               </Form>
-            </div>
-            <div className="card-footer text-center">
-              <div className="mb-3">Don't have an account?</div>
-              <Link to="/signup" color="secondary">
-                Go to Register
-              </Link>
+              <div className="flex justify-between items-center mt-4">
+                <Link to="/register" className="text-green-500 hover:text-green-700">Not a member? Register</Link>
+                <Link to="/forgot-password" className="text-blue-500 hover:underline">Forgot password?</Link>
+              </div>
             </div>
           </Card>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Login;
