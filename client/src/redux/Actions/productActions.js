@@ -61,7 +61,7 @@ export const fetchProductDetails = (id) => {
   return async (dispatch) => {
     dispatch(fetchProductDetailsRequest());
     try {
-      const response = await axios.get(`http://localhost:3000/scrape/${id}`);
+      const response = await axios.get(`http://localhost:3000/scrape`);
       const data = response.data;
       dispatch(fetchProductDetailsSuccess(data));
     } catch (error) {

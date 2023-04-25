@@ -1,74 +1,79 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import useProductData from "./hooks/useProductData";
+import { useState, useEffect } from "react";
 import ProductItem from "./ProductItem";
 
 const ProductList = () => {
-  // Use the useLocation hook to get the location object
   const location = useLocation();
 
-  // Use a custom hook to fetch the products data from the backend service
-  const { loading, error, data } = useProductData();
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [data, setData] = useState(null);
 
-  // Define a function to get the query parameter from the location
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("http://localhost:3000/scrape");
+        const jsonData = await response.json();
+        setData(jsonData);
+        setLoading(false);
+      } catch (error) {
+        setError(error);
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   const getQuery = () => {
-    // Get the search string from the location
     const search = location.search;
 
-    // Check if the search string is not empty
     if (search) {
-      // Remove the leading question mark and split by equal sign
       const [key, value] = search.slice(1).split("=");
 
-      // Check if the key is "query"
       if (key === "query") {
-        // Return the decoded value
         return decodeURIComponent(value);
       }
     }
 
-    // Return an empty string if no query parameter is found
     return "";
   };
 
-  // Define a function to filter the products by the query
   const filterProducts = (products, query) => {
-    // Check if the query is not empty
+    if (!Array.isArray(products)) {
+      // Return an empty array if the products parameter is not an array
+      return [];
+    }
+  
     if (query) {
-      // Return only the products that match the query in their name or description
       return products.filter(
         (product) =>
           product.name.toLowerCase().includes(query.toLowerCase()) ||
           product.description.toLowerCase().includes(query.toLowerCase())
       );
     }
-
-    // Return all products if no query is given
+  
     return products;
   };
+  
 
-  // Render a loading message while fetching the data
   if (loading) {
     return <div className="product-list">Loading...</div>;
   }
 
-  // Render an error message if there is an error
   if (error) {
     return <div className="product-list">Error: {error.message}</div>;
   }
 
-  // Render a message if there is no data
   if (!data) {
     return <div className="product-list">No products found.</div>;
   }
 
-  // Get the query parameter from the location
   const query = getQuery();
 
-  // Filter the products by the query
   const filteredProducts = filterProducts(data, query);
 
-  // Render a list of product items if there is data and filtered products
   return (
     <div className="product-list">
       <h2>Products</h2>
