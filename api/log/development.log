@@ -5867,3 +5867,53 @@ Processing by ScraperController#index as */*
 Completed 422 Unprocessable Entity in 2ms (Views: 0.7ms | Allocations: 353)
 
 
+Started GET "/scrape" for ::1 at 2023-04-25 20:10:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (12.13ms)
+Completed 200 OK in 3893ms (Views: 13.5ms | Allocations: 39580)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 20:17:44 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 2953ms (Views: 0.5ms | Allocations: 28364)
+
+
+Started POST "/scrape" for 127.0.0.1 at 2023-04-25 20:19:29 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/scrape"):
+  
+Started POST "/scrape" for 127.0.0.1 at 2023-04-25 20:19:34 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/scrape"):
+  
+Started POST "/scrape" for 127.0.0.1 at 2023-04-25 20:19:41 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/scrape"):
+  
+Started POST "/scrape" for 127.0.0.1 at 2023-04-25 20:19:49 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/scrape"):
+  
+Started POST "/scrape" for 127.0.0.1 at 2023-04-25 20:19:51 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/scrape"):
+  
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 20:20:13 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (9.03ms)
+Completed 200 OK in 3913ms (Views: 10.6ms | Allocations: 39433)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 20:39:06 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 422 Unprocessable Entity in 1501ms (Views: 1.3ms | Allocations: 11631)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 20:39:11 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (53.41ms)
+Completed 200 OK in 6338ms (Views: 54.7ms | Allocations: 39811)
+
+

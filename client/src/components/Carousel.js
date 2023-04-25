@@ -48,52 +48,57 @@ const Carousel = () => {
         img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/95/5911421/1.jpg?1260",
         link: "https://jumia.co.ke/samsung-galaxy-a14-4g-6.6-128gb-4gb-ram-dual-sim-5000mah-black-124119559.html"
       }
-    // {
-    //   id: 1,
-    //   image:
-    //     "https://territories.co.ke/wp-content/uploads/2022/06/HP-ProBook-640-G1-Intel-Core-i5-4th-Gen.png",
-    //   title: "Laptop",
-    //   price: "$499",
-    //   link: "/products?query=laptop",
-    // },
-    // {
-    //   id: 2,
-    //   image:
-    //     "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m33-1.jpg",
-    //   title: "Smartphone",
-    //   price: "$69",
-    //   link: "/products?query=smartphone",
-    // },
-    // {
-    //   id: 3,
-    //   image:
-    //     "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVsZXZpc2lvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    //   title: "Watch",
-    //   price: "$499",
-    //   link: "/products?query=television",
-    // },
-    // {
-    //   id: 4,
-    //   image:
-    //     "https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    //   title: "Headphones",
-    //   price: "$199",
-    //   link: "/products?query=headphones",
-    // },
-    // {
-    //   id: 5,
-    //   image:
-    //     "https://tvguru.co.ke/wp-content/uploads/2022/07/Samsung-55-BU8000-Crystal-UHD-4K-Smart-LED-TV-55BU8000-1.webp",
-    //   title: "Television",
-    //   price: "$299",
-    //   link: "/products?query=watch",
-    // },
+  
   ];
+
+  const dataVideoGamesSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+  };
+
+  const dataVideoGames = [
+    {
+      
+      title: "UCOM PC USB Dualshock Game Controller Twin Pad",
+      price: "KSh 926",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/99/0232501/1.jpg?5652",
+      link: "https://jumia.co.ke/ucom-pc-usb-dualshock-game-controller-twin-pad-105232099.html"
+    },
+  
+    {
+      
+      title: "Sony PS4 Pad Dual Shock 4 - Wireless Controller",
+      price: "KSh 2,995",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/048784/1.jpg?3706",
+      link: "https://jumia.co.ke/ps4-pad-dual-shock-4-wireless-controller-sony-mpg251484.html"
+    },
+    {
+     
+      title: "UCOM PC USB Dualshock Game Controller Twin Pad",
+      price: "KSh 926",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/99/0232501/1.jpg?5652",
+      link: "https://jumia.co.ke/ucom-pc-usb-dualshock-game-controller-twin-pad-105232099.html"
+      },
+    { 
+      
+      title: "Sony PS4 GAMEPAD",
+      price: "KSh 3,300",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/08/8150411/1.jpg?8580",
+      link: "https://jumia.co.ke/sony-ps4-gamepad-114051880.html"
+      },
+  ];
+
 
   // Return the JSX for the carousel
   return (
     <div className="carousel">
-      <h2>Trending Products</h2>
+      <h2>Top Products in Mobile $ Tablets</h2>
       <Slider {...settings}>
         {data.map((item) => (
           <div key={item.id} className="carousel-item">
@@ -107,6 +112,20 @@ const Carousel = () => {
           </div>
         ))}
       </Slider>
+      <h2>Top Products in Video Games</h2>
+      <Slider {...settings}>
+      {dataVideoGames.map((item) => (
+     <div key={item.id} className="carousel-item">
+      <a href={item.link}>
+      <img src={item.img} alt={item.title} />
+      <div className="carousel-item-info">
+<h3>{item.title}</h3>
+<p>{item.price}</p>
+    </div>
+  </a>
+</div>
+))}
+</Slider>
     </div>
   );
 };
