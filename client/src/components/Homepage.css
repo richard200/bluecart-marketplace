@@ -286,52 +286,50 @@
       font-size: 14px;
     }
   }
-  .login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem;
-  }
-  
-  .login h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .login form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .login label {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .login input {
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem;
-    width: 100%;
-    max-width: 30rem;
-  }
-  
-  .login button {
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-    background-color: #0070f3;
-    color: #fff;
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .login button:hover {
-    background-color: #0056b3;
-  }
-  
-  
+  /* Increase the spacing between the login form and header */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem auto;
+  max-width: 30rem;
+}
+
+/* Change the font size of the header */
+.login h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Change the font size and margin of the labels */
+.login label {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Add a border and padding to the input fields */
+.login input {
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+/* Change the font size and padding of the submit button */
+.login button {
+  font-size: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the hover color of the submit button */
+.login button:hover {
+  background-color: #0056b3;
+}

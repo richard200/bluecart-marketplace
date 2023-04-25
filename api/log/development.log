@@ -5762,3 +5762,8 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 4342ms (Views: 4.2ms | Allocations: 39580)
 
 
+Started GET "/scrape" for ::1 at 2023-04-25 12:04:29 +0300
+Processing by ScraperController#index as */*
+Completed 200 OK in 4234ms (Views: 4.5ms | Allocations: 39609)
+
+
