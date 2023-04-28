@@ -117,7 +117,7 @@ function Login (props ) {
             </div>
             <div className="card-footer text-center">
               <div className="mb-3">Don't have an account?</div>
-              <Link to="/signup" color="secondary">
+              <Link to="/register" color="secondary">
                 Go to Register
               </Link>
             </div>

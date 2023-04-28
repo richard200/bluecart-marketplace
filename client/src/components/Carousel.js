@@ -90,6 +90,48 @@ const Carousel = () => {
     // },
   ];
 
+  const dataVideoGamesSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+  };
+
+  const dataVideoGames = [
+    {
+      
+      title: "UCOM PC USB Dualshock Game Controller Twin Pad",
+      price: "KSh 926",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/99/0232501/1.jpg?5652",
+      link: "https://jumia.co.ke/ucom-pc-usb-dualshock-game-controller-twin-pad-105232099.html"
+    },
+  
+    {
+      
+      title: "Sony PS4 Pad Dual Shock 4 - Wireless Controller",
+      price: "KSh 2,995",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/048784/1.jpg?3706",
+      link: "https://jumia.co.ke/ps4-pad-dual-shock-4-wireless-controller-sony-mpg251484.html"
+    },
+    {
+     
+      title: "UCOM PC USB Dualshock Game Controller Twin Pad",
+      price: "KSh 926",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/99/0232501/1.jpg?5652",
+      link: "https://jumia.co.ke/ucom-pc-usb-dualshock-game-controller-twin-pad-105232099.html"
+      },
+    { 
+      
+      title: "Sony PS4 GAMEPAD",
+      price: "KSh 3,300",
+      img: "https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/08/8150411/1.jpg?8580",
+      link: "https://jumia.co.ke/sony-ps4-gamepad-114051880.html"
+      },
+  ];
   // Return the JSX for the carousel
   return (
     <div className="carousel">
@@ -107,7 +149,24 @@ const Carousel = () => {
           </div>
         ))}
       </Slider>
-    </div>
+<br></br>
+<br></br>
+<h2>Top Products in Video Games</h2>
+<Slider {...settings}>
+{dataVideoGames.map((item) => (
+<div key={item.id} className="carousel-item">
+<a href={item.link}>
+<img src={item.img} alt={item.title} />
+<div className="carousel-item-info">
+<h3>{item.title}</h3>
+<p>{item.price}</p>
+</div>
+</a>
+</div>
+))}
+</Slider>
+</div>
+
   );
 };
 

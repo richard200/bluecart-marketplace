@@ -3,6 +3,8 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { userLoginSuccess } from "../redux/Actions/userActions";
 import About from "./About";
+import '../App.css'
+// import { Nav, NavDropdown } from 'react-bootstrap';
 
 const Navbar = ({ user, setUser }) => {
   // Define a function to handle the logout
@@ -41,11 +43,15 @@ const Navbar = ({ user, setUser }) => {
      <h1 id="nav-title"><a  
       href="/">BlueCart!</a></h1>
       {user && <Link to="/history">History</Link>}
-      {user ? (
-        <button onClick={handleLogout}>Logout</button>
-      ) : (
-        <Link to="/categories">Categories</Link>
-      )}
+      {/* <Link to="/categories">Register</Link> */}
+      <div className="dropdown">
+    <a href="/categories">Categories</a>
+    <div className="dropdown-menu">
+      <a href="/phones">Phones</a>
+      <a href="/games">Games</a>
+    </div>
+  </div>
+  
       <Link to="/register">Register</Link>
       <Link to="/login">Login</Link>
       <Link to="/about">About</Link>

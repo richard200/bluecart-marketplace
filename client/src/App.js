@@ -11,6 +11,7 @@ import Register from "./components/Register";
 import Categories from "./components/Categories";
 import History from "./components/History";
 import About from "./components/About"; // Import About component
+import Phones from "./components/Phones"; // Import Phones component
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
             <Route path="/products/:id" element={<ProductDetails />} />
             <Route path="/products" element={<ProductList />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/games" element={<Categories />} />
+            <Route path="/phones" element={<Phones />} />
             <Route path="/categories" element={<Categories />} />
             <Route path="/register" element={<Register />} />
             <Route path="/history" element={<History />} />

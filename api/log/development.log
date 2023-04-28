@@ -5488,3 +5488,708 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 5860ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 39252)
 
 
+Started GET "/scrape" for ::1 at 2023-04-25 15:15:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 4085ms (Views: 0.5ms | Allocations: 28408)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 15:15:46 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.4ms)
+Completed 200 OK in 4814ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 75813)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 15:15:54 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 3015ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 28167)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 15:16:25 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.5ms)
+Completed 200 OK in 4584ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 39497)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 15:20:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 422 Unprocessable Entity in 3335ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 28320)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-25 15:20:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.78ms)
+Completed 200 OK in 5162ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 75878)
+
+
+Started GET "/scrape" for ::1 at 2023-04-25 15:20:46 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.36ms)
+Completed 200 OK in 4445ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 39411)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-26 08:30:41 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (9.39ms)
+Completed 200 OK in 50373ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 75668)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 08:33:05 +0300
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-26 08:33:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.09ms)
+Completed 200 OK in 7902ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 56614)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (11.9ms)
+Completed 200 OK in 7194ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 68550)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 08:33:34 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.19ms)
+Completed 200 OK in 4221ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 39376)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 08:36:12 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.11ms)
+Completed 200 OK in 12863ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 40009)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 08:37:49 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.68ms)
+Completed 422 Unprocessable Entity in 11557ms (Views: 1.1ms | Allocations: 28351)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 08:38:00 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 11247ms (Views: 0.5ms | Allocations: 11217)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 08:38:11 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.7ms)
+Completed 200 OK in 14623ms (Views: 6.2ms | Allocations: 39984)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-26 08:55:17 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 200 OK in 85ms (Views: 0.4ms | ActiveRecord: 6.4ms | Allocations: 18827)
+
+
+Started GET "/check" for 127.0.0.1 at 2023-04-26 08:55:28 +0300
+Processing by SessionController#check as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 356)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 09:15:14 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.34ms)
+Completed 200 OK in 5771ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 75914)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 09:15:32 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.06ms)
+Completed 200 OK in 15868ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 39703)
+
+
+Started GET "/scraper" for 127.0.0.1 at 2023-04-26 10:19:29 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/scraper"):
+  
+Started GET "/scraper" for 127.0.0.1 at 2023-04-26 10:19:55 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/scraper"):
+  
+Started GET "/scraper" for 127.0.0.1 at 2023-04-26 10:20:15 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/scraper"):
+  
+Started GET "/scrape" for 127.0.0.1 at 2023-04-26 10:20:20 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (12.6ms)
+Completed 200 OK in 5839ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 75268)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 10:21:04 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.93ms)
+Completed 200 OK in 4530ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 39235)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:30:16 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 10079ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 34237)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:30:51 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (15.34ms)
+Completed 200 OK in 11266ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 41891)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-26 11:31:06 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.5ms)
+Completed 200 OK in 10070ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 39705)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:31:23 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 1277ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 11706)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:31:34 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 3097ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 28281)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:31:51 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.43ms)
+Completed 422 Unprocessable Entity in 923ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 11649)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:31:58 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.24ms)
+Completed 200 OK in 3851ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 39375)
+
+
+Started GET "/scrape" for ::1 at 2023-04-26 11:32:09 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 2683ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 28348)
+
+
+Started GET "/scrape" for ::1 at 2023-04-27 13:57:04 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 670ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 46399)
+
+
+Started GET "/scrape" for ::1 at 2023-04-27 13:58:13 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.28ms)
+Completed 422 Unprocessable Entity in 778ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 11857)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:10:03 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 1666ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 46354)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-28 10:11:46 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.63ms)
+Completed 200 OK in 3582ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 40585)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:11:53 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (12.84ms)
+Completed 200 OK in 3983ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 39543)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:12:44 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.5ms)
+Completed 200 OK in 3088ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 39471)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:13:01 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.67ms)
+Completed 200 OK in 2760ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 39347)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:13:47 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.22ms)
+Completed 200 OK in 3012ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 39403)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-28 10:34:05 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.89ms)
+Completed 422 Unprocessable Entity in 2509ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 64356)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-28 10:34:10 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.37ms)
+Completed 200 OK in 4884ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 39560)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:34:19 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.99ms)
+Completed 200 OK in 3456ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 39335)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:34:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.25ms)
+Completed 200 OK in 3180ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 39482)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:34:52 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (15.1ms)
+Completed 200 OK in 3235ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 39467)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:36:26 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.35ms)
+Completed 422 Unprocessable Entity in 452ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 11729)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:36:27 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (9.07ms)
+Completed 200 OK in 3053ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 39346)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:36:58 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.24ms)
+Completed 200 OK in 2793ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 39107)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:37:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.76ms)
+Completed 200 OK in 2881ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 39273)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:37:15 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 1988ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 28344)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:39:38 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.1ms)
+Completed 200 OK in 2857ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 39618)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:41:54 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.1ms)
+Completed 200 OK in 2723ms (Views: 4.7ms | Allocations: 39425)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:42:03 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (9.45ms)
+Completed 200 OK in 2837ms (Views: 10.0ms | Allocations: 39614)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:42:11 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 529ms (Views: 1.9ms | Allocations: 11574)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:42:14 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 2349ms (Views: 0.5ms | Allocations: 28178)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:42:16 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 1943ms (Views: 0.5ms | Allocations: 28147)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:42:26 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.33ms)
+Completed 200 OK in 2841ms (Views: 3.8ms | Allocations: 39642)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:43:50 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (12.18ms)
+Completed 200 OK in 2723ms (Views: 13.3ms | Allocations: 39224)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:43:53 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.36ms)
+Completed 200 OK in 4694ms (Views: 7.9ms | Allocations: 39593)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:43:59 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 743ms (Views: 0.5ms | Allocations: 11570)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:44:25 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 478ms (Views: 0.6ms | Allocations: 11787)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:44:27 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 459ms (Views: 0.6ms | Allocations: 11729)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:44:33 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.48ms)
+Completed 200 OK in 2849ms (Views: 8.4ms | Allocations: 39673)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:44:38 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 484ms (Views: 0.5ms | Allocations: 11821)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:45:22 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.93ms)
+Completed 200 OK in 2910ms (Views: 6.5ms | Allocations: 39533)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:45:25 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (16.12ms)
+Completed 200 OK in 3015ms (Views: 17.2ms | Allocations: 39390)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:45:32 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.17ms)
+Completed 200 OK in 2779ms (Views: 4.7ms | Allocations: 39476)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:45:40 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 395ms (Views: 0.6ms | Allocations: 11577)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:47:40 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.54ms)
+Completed 200 OK in 3197ms (Views: 6.7ms | Allocations: 39152)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:47:47 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.4ms)
+Completed 200 OK in 3351ms (Views: 3.9ms | Allocations: 39702)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:47:54 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 520ms (Views: 0.7ms | Allocations: 11827)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:48:52 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.54ms)
+Completed 200 OK in 2864ms (Views: 8.0ms | Allocations: 39516)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:49:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.06ms)
+Completed 200 OK in 3157ms (Views: 8.5ms | Allocations: 39454)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:49:25 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 463ms (Views: 0.5ms | Allocations: 11637)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:49:27 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 422 Unprocessable Entity in 417ms (Views: 0.5ms | Allocations: 11785)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:49:28 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 422 Unprocessable Entity in 1854ms (Views: 0.8ms | Allocations: 28241)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:49:42 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 2281ms (Views: 0.6ms | Allocations: 28385)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:49:59 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.59ms)
+Completed 200 OK in 4467ms (Views: 9.8ms | Allocations: 39387)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:50:04 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.76ms)
+Completed 200 OK in 3109ms (Views: 4.3ms | Allocations: 39687)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:50:31 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.36ms)
+Completed 200 OK in 3224ms (Views: 8.0ms | Allocations: 39586)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:50:37 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 1929ms (Views: 0.7ms | Allocations: 28386)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:50:44 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.68ms)
+Completed 200 OK in 2884ms (Views: 4.1ms | Allocations: 39491)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:50:58 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.69ms)
+Completed 200 OK in 2875ms (Views: 6.2ms | Allocations: 39368)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:51:07 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.65ms)
+Completed 200 OK in 3420ms (Views: 8.5ms | Allocations: 39469)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:51:11 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.06ms)
+Completed 200 OK in 3191ms (Views: 7.5ms | Allocations: 39441)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:51:14 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.69ms)
+Completed 200 OK in 2955ms (Views: 4.1ms | Allocations: 39657)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:51:20 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.7ms)
+Completed 200 OK in 3121ms (Views: 3.2ms | Allocations: 39591)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:51:34 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.27ms)
+Completed 200 OK in 2682ms (Views: 9.3ms | Allocations: 39596)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:51:39 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 1689ms (Views: 0.7ms | Allocations: 28508)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:02 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.65ms)
+Completed 200 OK in 2942ms (Views: 6.2ms | Allocations: 39728)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 422 Unprocessable Entity in 471ms (Views: 2.5ms | Allocations: 11842)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.89ms)
+Completed 200 OK in 4506ms (Views: 3.5ms | Allocations: 39758)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:10 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 425ms (Views: 0.6ms | Allocations: 11754)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:15 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.76ms)
+Completed 200 OK in 4278ms (Views: 3.2ms | Allocations: 39897)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:21 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (4.01ms)
+Completed 200 OK in 4266ms (Views: 4.5ms | Allocations: 39688)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 10:52:25 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.09ms)
+Completed 200 OK in 4158ms (Views: 3.6ms | Allocations: 39368)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:12:19 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+Started GET "/scrape" for ::1 at 2023-04-28 13:12:21 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.56ms)
+Completed 200 OK in 3865ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 104045)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.02ms)
+Completed 200 OK in 2874ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 70021)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:12:48 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.63ms)
+Completed 200 OK in 6799ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 39740)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:13:36 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.75ms)
+Completed 200 OK in 3761ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 39386)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:13:40 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 572ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 11544)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-28 13:13:57 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.66ms)
+Completed 200 OK in 5576ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 39597)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:14:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.46ms)
+Completed 422 Unprocessable Entity in 377ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 11566)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:14:17 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (9.94ms)
+Completed 200 OK in 3934ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 39320)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:16:02 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 2032ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 28423)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:16:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (8.34ms)
+Completed 200 OK in 2922ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 39583)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:16:09 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.4ms)
+Completed 200 OK in 4417ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 39799)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:16:13 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 419ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 11639)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:16:21 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.62ms)
+Completed 200 OK in 3201ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 39574)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:16:41 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 2610ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 28349)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:17:11 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 2354ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 28320)
+
+
+Started GET "/scrape" for 127.0.0.1 at 2023-04-28 13:17:16 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.63ms)
+Completed 200 OK in 3691ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 39631)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:17:23 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 4555ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 28476)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:17:38 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 461ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 11843)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:17:55 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.59ms)
+Completed 200 OK in 3912ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 39770)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 13:19:31 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.16ms)
+Completed 200 OK in 6288ms (Views: 3.6ms | Allocations: 39308)
+
+
