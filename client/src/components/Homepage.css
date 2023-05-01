@@ -109,25 +109,29 @@
   
   /* Define the styles for the categories class */
   .categories {
+    padding-top: 100px;
     margin-top: 80px;
     margin-bottom: 40px;
+  }
+.categories-h1{
+    padding-top: 100px;
   }
   
   /* Define the styles for the categories-grid class */
   .categories-grid {
+     padding-top: 150px;
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 70px;
-    background-color: #eee2dc;
   }
   
   /* Define the styles for the category-card class */
   .category-card {
+   padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #eee2dc;
   }
   .footer-col {
     margin-bottom: 20px;
