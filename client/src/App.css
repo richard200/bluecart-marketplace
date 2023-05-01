@@ -297,7 +297,7 @@ input[type=number], select {
 input[type=text], select {
   border-radius: 50px;
   margin: 20px;
-  padding: 30px;
+  padding: 0px;
   display:inline-block ;
   margin-top: 10px;
   width: 500px;
