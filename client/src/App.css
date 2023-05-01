@@ -15,10 +15,14 @@
   justify-content: flex-end;
     align-items: center;
     background-color: #eee2dc;
- 
+    z-index: 1;
   color: #212b36; /* changed to dark gray */
+  top: 0; /* added this line */
+  left: 0; /* added this line */
   padding: 18px;
   font-size: 18px;
+  position: fixed;
+  width: 100%;
 }
 
 #nav-title {

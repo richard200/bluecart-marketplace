@@ -24,6 +24,9 @@ import Footer from "./Footer";
 // Import the CSS file for styling
 import "./Homepage.css";
 
+import ScrollToTop from "react-scroll-to-top"
+
+
 const HomePage = () => {
   // Define the state for the query
   const [query, setQuery] = useState("");
@@ -62,6 +65,8 @@ const HomePage = () => {
 
       {/* Render the main content */}
       <div className="content">
+        <br></br>
+        <br></br>
         <h1>Welcome to BlueCart</h1>
         <p>The best place to compare prices from different e-commerce sites.</p>
         <form onSubmit={handleSubmit}>
@@ -74,11 +79,15 @@ const HomePage = () => {
 
         {/* Render the Categories component */}
         
+
       </div>
 
       {/* Render the Footer component */}
       <Footer />
+
+      <ScrollToTop smooth style={{ backgroundColor: "orange", borderRadius: "50%", bottom: "20px", right: "20px" }} />
     </motion.div>
+    
   );
 };
 

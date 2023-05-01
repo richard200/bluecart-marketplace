@@ -38,6 +38,8 @@ const Reviews = ({ reviews, handleReviewSubmit }) => {
 
   return (
     <div>
+      <br></br>
+      <br></br>
       <h2>Reviews:</h2>
    <h3 className='rev'>Leave a review so we can know where to improve</h3>
       {/* {user ? ( */}

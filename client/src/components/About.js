@@ -3,6 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="container">
+      <br></br>
+      <br></br>
       <h2>About BlueCart</h2>
       <p>
         BlueCart is an online search engine that helps you navigate through a variety of e-commerce sites in Kenya, making it easier to find, compare, and buy the products you want. Our name reflects our efficiency in providing you with the latest prices for any product once issued.
