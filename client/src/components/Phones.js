@@ -65,7 +65,7 @@ function Categories() {
 
   useEffect(() => {
     async function fetchGames() {
-      const response = await fetch("http://localhost:3000/scrape");
+      const response = await fetch("https://bluecart-marketplace-backend.onrender.com/scrape");
       const data = await response.json();
       const allProducts = [
         ...data.jiji.map((product) => ({

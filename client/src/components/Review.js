@@ -15,7 +15,7 @@ const Reviews = ({ reviews, handleReviewSubmit }) => {
 
   const handleSubmit = event => {
     event.preventDefault();
-    fetch('/reviews', {
+    fetch('https://bluecart-marketplace-backend.onrender.com/reviews', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

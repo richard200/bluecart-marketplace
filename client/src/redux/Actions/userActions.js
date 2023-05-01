@@ -62,7 +62,7 @@ export const loginUser = (email, password) => {
   return async (dispatch) => {
     dispatch(userLoginRequest());
     try {
-      const response = await axios.post("/api/users/login", { email, password });
+      const response = await axios.post("https://bluecart-marketplace-backend.onrender.com/login", { email, password });
       const data = response.data;
       dispatch(userLoginSuccess(data));
       localStorage.setItem("user", JSON.stringify(data));
@@ -83,7 +83,7 @@ export const registerUser = (name, email, password) => {
   return async (dispatch) => {
     dispatch(userRegisterRequest());
     try {
-      const response = await axios.post("/api/users/register", { name, email, password });
+      const response = await axios.post("https://bluecart-marketplace-backend.onrender.com/register", { name, email, password });
       const data = response.data;
       dispatch(userRegisterSuccess(data));
       localStorage.setItem("user", JSON.stringify(data));

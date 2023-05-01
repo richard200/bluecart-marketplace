@@ -14,7 +14,7 @@ const Navbar = ({ user, setUser }) => {
     
 
       // Send a DELETE request to the Ruby backend with the token in the header
-      const response = await fetch("/logout", {
+      const response = await fetch("https://bluecart-marketplace-backend.onrender.com/logout", {
         method: "DELETE",
        "Content-type": "application/json"
       });

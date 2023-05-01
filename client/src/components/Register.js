@@ -112,7 +112,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/register', {
+      const response = await fetch('https://bluecart-marketplace-backend.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -121,7 +121,7 @@ function Signup() {
       });
       const data = await response.json();
       console.log(data);
-      window.location.href = '/login' // redirect to login page after successful registration
+      window.location.href = 'https://bluecart-marketplace-backend.onrender.com/login' // redirect to login page after successful registration
     } catch (error) {
       setErrorMessage(error.message);
     }

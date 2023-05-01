@@ -19,7 +19,7 @@ function Login (props ) {
     e.preventDefault();
 
        // Send a POST request to login and create a session
-       fetch('http://localhost:3000/login', {
+       fetch('https://bluecart-marketplace-backend.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
