@@ -2,11 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  padding-left: 0px;
+ 
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 80px;
+  
 }
 
 /* navbar styles */
@@ -14,29 +17,46 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-    align-items: center;
-  background-color: lightgray; /* changed to white */
-  color: #212b36; /* changed to dark gray */
+  background-color: #AC9494; /* changed to dark gray */
+  color: black; /* changed to white */
   padding: 18px;
   font-size: 18px;
   position: fixed;
+  z-index: 1;
   top: 0; /* added this line */
   left: 0; /* added this line */
   width: 100%;
 }
 
+.navbar a {
+  text-decoration: none; /* removed the underline */
+  margin-left: 20px; /* added some space between links */
+}
+
+.navbar a:hover {
+  color: #f44336; /* changed the color on hover */
+}
+
 #nav-title {
   margin-right: auto;
   font-size: 1.5em;
-  color: wheat;
+  color: black;
 }
 
 .navbar a {
   color: #212b36; /* changed to dark gray */
   text-decoration: none;
   margin-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #100e0e;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.2s ease-in-out;
   
 }
+
 
 .navbar a:last-child {
   margin-right: 0;
@@ -59,6 +79,7 @@
   width: 300px;
   padding: 10px;
   border: none;
+ 
   border-radius: 5px;
   margin-right: 10px;
   font-size: 16px;
@@ -85,6 +106,8 @@
   border: none;
   border-radius: 5px;
 }
+
+
 
 /* home page styles */
 .home-page {
@@ -165,16 +188,19 @@
 
 .search {
   display: flex;
-  align-items: center;
+  justify-content: center;
   margin: 20px;
 }
 
 .search input {
   width: 700px;
   height: 40px;
-  border: none;
+  /* border: none; */
+  text-align: center;
+  justify-content: center;
   border-radius: 20px;
-  padding: 10px;
+  border-color: #333;
+  padding: 6px 12px;
   font-size: 18px;
 }
 
@@ -266,7 +292,7 @@
 .CardButton {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #AC9494;
   color: white;
   text-decoration: none;
 }

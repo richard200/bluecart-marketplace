@@ -1,6 +1,7 @@
 // Import React and useEffect hooks
 import React, { useEffect } from "react";
 import { useState, } from 'react';
+import ScrollToTop from "react-scroll-to-top";
 
 import styled from "styled-components";
 
@@ -145,6 +146,9 @@ function Categories() {
           </Card>
         ))}
       </CardContainer>
+
+      {/* Add the ScrollToTop component with some custom styles */}
+      <ScrollToTop smooth style={{ backgroundColor: "orange", borderRadius: "50%", bottom: "20px", right: "20px" }} />
     </div>
   );
 }

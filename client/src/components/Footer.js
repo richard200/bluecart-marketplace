@@ -1,40 +1,95 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import ScrollToTop from "react-scroll-to-top";
+import "./Footer.css";
+import BluecartDevices from "./BluecartDevices";
 
 const Footer = () => {
   return (
     <div className="footer">
       <Container fluid>
-        <Row>
-          <Col md={12} className="footer-col">
-            <h2>Shopping Online Kenya!</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={4} className="footer-col">
-            <p>
-            At Bluecart, we make it easy for you to compare prices and shop online for hundreds of thousands of different products in Kenya. Our goal is to help you save money and stay informed about the availability and pricing of products. Bluecart is powered by a machine that provides up-to-date prices, deals, and product information from trusted online stores selling original and high-quality products in Kenya.
-
-We work impartially to ensure that you get the best possible shopping experience. We do not favor any particular online store over another, and we display products based on the best available prices in Kenya. 
-We take pride in the quality of online stores we feature on Bluecart. Our filtering criteria ensure that online stores meet minimum quality requirements to provide the best shopping experience for our users.
-If you are an online store and wish to be featured on Bluecart, please contact us at contact@bluecart.co.ke. Try us today for the best deals and cheapest prices in Kenya. Happy shopping!
-            </p>
-          </Col>
-          <Col md={4} className="footer-col">
+        <Row className="footer-top">
+          <Col md={6} className="footer-top-left">
             <ul>
               <li>
-                <a href="/contact">Contact Us</a>
+                <a href="http://localhost:4000/about">About Bluecart</a>
               </li>
               <li>
-                <a href="/terms">Terms and Conditions</a>
+                <a href="">Bluecart Devices</a>
+              </li>
+            </ul>
+          </Col>
+          <Col md={6} className="footer-top-right">
+            <ul>
+              <li>
+                <a href="#">
+                  <FaFacebookF />
+                </a>
               </li>
               <li>
-                <a href="/privacy">Privacy Policy</a>
+                <a href="#">
+                  <FaTwitter />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaInstagram />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+        <hr />
+        <Row className="footer-middle">
+          <Col md={3} className="footer-col">
+            <h4>Get to Know Us</h4>
+            <ul>
+              <li>
+                <a href="#">About Bluecart</a>
+              </li>
+              <li>
+                <a href="#">Our Policies</a>
+              </li>
+              <li>
+                <a href="#">Help & Support</a>
+              </li>
+            </ul>
+          </Col>
+          <Col md={9} className="footer-col">
+            <BluecartDevices />
+          </Col>
+        </Row>
+        <hr />
+        <Row className="footer-bottom">
+          <Col md={6} className="footer-bottom-left">
+            <p>
+              &copy; {new Date().getFullYear()} Bluecart Marketplace. All Rights
+              Reserved.
+            </p>
+          </Col>
+          <Col md={6} className="footer-bottom-right">
+            <ul>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#">Terms of Use</a>
               </li>
             </ul>
           </Col>
         </Row>
       </Container>
+
+      <ScrollToTop
+        smooth
+        style={{
+          backgroundColor: "#c7a948",
+          borderRadius: "50%",
+          bottom: "20px",
+          right: "20px",
+        }}
+      />
     </div>
   );
 };
