@@ -41,6 +41,9 @@
 .navbar a:last-child {
   margin-right: 0;
 }
+.navbar a:hover {
+  color: blue; /* changed to dark gray */
+}
 
 .navbar .right {
   margin-left: auto;
