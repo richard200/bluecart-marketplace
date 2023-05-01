@@ -4,6 +4,8 @@
 // Import React and useEffect hooks
 import React, { useEffect } from "react";
 import { useState, } from 'react';
+import "../App.css"
+
 
 import styled from "styled-components";
 
@@ -56,65 +58,161 @@ margin-right: 50px;
 
 function Categories() {
   const [products, setProducts] = useState([]);
-  const [products1, setProducts1] = useState([]);
-  const [products2, setProducts2] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedStore, setSelectedStore] = useState("All");
 
   useEffect(() => {
-    async function fetchPhones() {
+    async function fetchGames() {
       const response = await fetch("http://localhost:3000/scrape");
       const data = await response.json();
-      setProducts(data.jumia);
-      setProducts1(data.jiji);
+      const allProducts = [
+        ...data.jiji.map((product) => ({
+          ...product,
+          source: "Jiji",
+        })),
+        ...data.jumia.map((product) => ({
+          ...product,
+          source: "Jumia",
+        })),
+      ];
+      setProducts(allProducts);
     }
-    fetchPhones();
+    fetchGames();
   }, []);
 
-  return(
+  const filteredProducts = products.filter((product) => {
+    return (
+      (selectedCategory === "All" || selectedCategory === product.category) &&
+      (selectedStore === "All" || selectedStore === product.source) &&
+      product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  });
+
+  const categories = [
+    "All",
+    ...new Set(products.map((product) => product.category)),
+  ];
+
+  const stores = [
+    "All",
+    ...new Set(products.map((product) => product.source)),
+  ];
+
+  return (
     <div>
-      {/* <h1>Phone List</h1> */}
-      <h1>Phones and Accessories from Jumia</h1>
-      <CardContainer> 
-        {Array.isArray(products1) &&
-          products1.map((product, index) => (
-            <Card key={index}>
-              {/* <img className="card-img-top" src={product.image} alt={product.title} /> */}
-              <CardBody>
-                <CardImage src={product.img} alt={product.title} />
-                <h3>Sold by Jumia</h3>
-                <CardTitle>Title: {product.title}</CardTitle>
-                <CardText>Price: {product.price}</CardText>
-                <CardButton href={product.link}>Go to Site</CardButton>
-                {/* <p className="card-text">Image: {product.img}</p> */}
-              </CardBody>
-            </Card>
+      <h2>Phones and Accessories</h2>
+      <div>
+        <label>Search by title:</label>
+        <input
+          type="text"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </div>
+      {/* <div>
+        <label>Select a category:</label>
+        <select
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value)}
+        >
+          {categories.map((category, index) => (
+            <option key={index} value={category}>
+              {category}
+            </option>
           ))}
-      </CardContainer>
-
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-
-      <h1>Phones and Accessories from Jiji</h1>
-      <CardContainer> 
-        {Array.isArray(products) &&
-          products.map((product, index) => (
-            <Card key={index}>
-              {/* <img className="card-img-top" src={product.image} alt={product.title} /> */}
-              <CardBody>
-                <CardImage src={product.img} alt={product.title} />
-                <h3>Sold by Jiji</h3>
-                <CardTitle>Title: {product.title}</CardTitle>
-                <CardText>Price: {product.price}</CardText>
-                <CardButton href={product.link}>Go to Site</CardButton>
-                {/* <p className="card-text">Image: {p */}
-              </CardBody>
-            </Card>
+        </select>
+      </div> */}
+      <div>
+        <label>Select a store:</label>
+        <select
+          value={selectedStore}
+          onChange={(e) => setSelectedStore(e.target.value)}
+        >
+          {stores.map((store, index) => (
+            <option key={index} value={store}>
+              {store}
+            </option>
           ))}
+        </select>
+      </div>
+      <CardContainer>
+        {filteredProducts.map((product, index) => (
+          <Card key={index}>
+            <CardBody>
+              <CardImage src={product.img} alt={product.title} />
+              <h3>Sold by {product.source}</h3>
+              <CardTitle>Title: {product.title}</CardTitle>
+              <CardText>Price: {product.price}</CardText>
+              <CardButton href={product.link}>Go to Site</CardButton>
+            </CardBody>
+          </Card>
+        ))}
       </CardContainer>
     </div>
   );
 }
+// function Categories() {
+//   const [products, setProducts] = useState([]);
+//   const [products1, setProducts1] = useState([]);
+//   const [products2, setProducts2] = useState([]);
+
+//   useEffect(() => {
+//     async function fetchPhones() {
+//       const response = await fetch("http://localhost:3000/scrape");
+//       const data = await response.json();
+//       setProducts(data.jumia);
+//       setProducts1(data.jiji);
+//     }
+//     fetchPhones();
+//   }, []);
+
+//   return(
+//     <div>
+//       {/* <h1>Phone List</h1> */}
+//       <h1>Phones and Accessories from Jumia</h1>
+//       <CardContainer> 
+//         {Array.isArray(products1) &&
+//           products1.map((product, index) => (
+//             <Card key={index}>
+//               {/* <img className="card-img-top" src={product.image} alt={product.title} /> */}
+//               <CardBody>
+//                 <CardImage src={product.img} alt={product.title} />
+//                 <h3>Sold by Jumia</h3>
+//                 <CardTitle>Title: {product.title}</CardTitle>
+//                 <CardText>Price: {product.price}</CardText>
+//                 <CardButton href={product.link}>Go to Site</CardButton>
+//                 {/* <p className="card-text">Image: {product.img}</p> */}
+//               </CardBody>
+//             </Card>
+//           ))}
+//       </CardContainer>
+
+//       <br></br>
+//       <br></br>
+//       <br></br>
+//       <br></br>
+//       <br></br>
+
+//       <h1>Phones and Accessories from Jiji</h1>
+//       <CardContainer> 
+//         {Array.isArray(products) &&
+//           products.map((product, index) => (
+//             <Card key={index}>
+//               {/* <img className="card-img-top" src={product.image} alt={product.title} /> */}
+//               <CardBody>
+//                 <CardImage src={product.img} alt={product.title} />
+//                 <h3>Sold by Jiji</h3>
+//                 <CardTitle>Title: {product.title}</CardTitle>
+//                 <CardText>Price: {product.price}</CardText>
+//                 <CardButton href={product.link}>Go to Site</CardButton>
+//                 {/* <p className="card-text">Image: {p */}
+//               </CardBody>
+//             </Card>
+//           ))}
+//       </CardContainer>
+//     </div>
+//   );
+// }
 
 export default Categories;

@@ -11,14 +11,12 @@ const Navbar = ({ user, setUser }) => {
   const handleLogout = async () => {
     try {
       // Get the token from the local storage
-      const token = localStorage.getItem("token");
+    
 
       // Send a DELETE request to the Ruby backend with the token in the header
-      const response = await fetch("/api/v1/logout", {
+      const response = await fetch("/logout", {
         method: "DELETE",
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
+       "Content-type": "application/json"
       });
 
       // Check if the response is successful
@@ -27,7 +25,7 @@ const Navbar = ({ user, setUser }) => {
         setUser(null);
 
         // Remove the token from the local storage
-        localStorage.removeItem("token");
+     
       } else {
         // Throw an error with the status text
         throw new Error(response.statusText);
@@ -55,6 +53,7 @@ const Navbar = ({ user, setUser }) => {
       <Link to="/register">Register</Link>
       <Link to="/login">Login</Link>
       <Link to="/about">About</Link>
+      <Link to="/review">Review</Link>
     </div>
   );
   

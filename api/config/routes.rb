@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reviews
   resources :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -15,5 +16,6 @@ Rails.application.routes.draw do
 
   # post "/login", to: "users#login"
   post '/register', to: 'users#create'
+  post '/review', to: 'reviews#create'
 
 end

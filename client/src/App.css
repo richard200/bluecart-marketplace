@@ -274,3 +274,44 @@
   color: white;
   text-decoration: none;
 }
+
+input[type=number], select {
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  display:inline-block ;
+  margin-top: 10px;
+  width: 300px;
+}
+
+input[type=text], select {
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  display:inline-block ;
+  margin-top: 10px;
+  width: 500px;
+}
+
+input[type=password], select {
+  border-radius: 50px;
+  margin: 20px;
+  padding: 30px;
+  display:inline-block ;
+  margin-top: 10px;
+  width: 500px;
+}
+
+textarea{
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  display:inline-block ;
+  margin-top: 10px;
+  width: 300px;
+
+}
+
+.rev{
+  text-align: center;
+}

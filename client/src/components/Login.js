@@ -43,42 +43,20 @@ function Login (props ) {
           props.onLogin();
        
         } else {
-          // Display an error message to the user
+      
         }
-      //   sessionStorage.setItem('userId', data.user_id);
-      //   // Call the onLogin callback with the user ID
-      //  props.onLogin()
-      //  window.location.href = '/addrecipe';
+    
       })
       .catch(error => {
         setShowAlert('Invalid email or password');
         
       });
     };
-  //   try {
-  //     const response = await fetch('/login', {
-  //       method: 'POST',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //       },
-  //       body: JSON.stringify({ email, password }),
-  //     });
-  //     const data = await response.json();
-  //     console.log(data); // handle server response here
-  //     if (data) {
-  //       setShowAlert(true); // show success message
-  //       onLogin(data.user_id);
-  //       // you can store the token in local storage or cookies here
-  //       window.location.href = '/addrecipe'; // redirect to home page after successful login
-        
-  //     }
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // };
+
 
   return (
     <div className="container mt-5">
+       <h2 className="mb-4">Login to your account</h2>
       <div className="row justify-content-center">
         <div className="col-lg-10 col-md-8">
           <Card>
@@ -89,12 +67,12 @@ function Login (props ) {
               {showAlert && <Alert color="success">Logged in successfully!</Alert>}
               <Form onSubmit={handleSubmit}>
                 <FormGroup>
-                  <Label for="email">Username / Email</Label>
+                  <Label for="email">Email</Label>
                   <Input
                     type="text"
                     name="email"
                     id="email"
-                    placeholder="Enter your email or username"
+                    placeholder="Enter your email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />

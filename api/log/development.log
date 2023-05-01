@@ -6193,3 +6193,360 @@ Processing by ScraperController#index as */*
 Completed 200 OK in 6288ms (Views: 3.6ms | Allocations: 39308)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230419093649)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  [1m[35mDROP TABLE "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20230419093649"]]
+  [1m[36mTRANSACTION (6.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230419093649)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar NOT NULL, "email" varchar NOT NULL, "password_digest" varchar NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230419093649"]]
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20230428145058)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "comment" varchar, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230428145058"]]
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20230428145058)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE "reviews"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20230428145058"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20230428145058)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "rating" integer, "comment" varchar, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230428145058"]]
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/login" for 127.0.0.1 at 2023-04-28 18:24:35 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionController#create as */*
+  Parameters: {"username"=>"richard", "password"=>"[FILTERED]", "session"=>{"username"=>"richard", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 422 Unprocessable Entity in 43ms (Views: 4.1ms | ActiveRecord: 0.4ms | Allocations: 25989)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-28 18:25:14 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.43ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1295)
+
+
+Started POST "/register" for 127.0.0.1 at 2023-04-28 18:25:54 +0300
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}}
+[31mUnpermitted parameter: :user. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fc3ac676160>, params: {"username"=>"richard", "email"=>"rich@gmail.com", "password"=>"[FILTERED]", "controller"=>"users", "action"=>"create", "user"=>{"username"=>"richard", "email"=>"rich@gmail.com"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "richard"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "richard"], ["email", "rich@gmail.com"], ["password_digest", "[FILTERED]"], ["created_at", "2023-04-28 15:25:54.529827"], ["updated_at", "2023-04-28 15:25:54.529827"]]
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:41:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? AND "users"."id" != ? LIMIT ?[0m  [["username", "richard"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:42:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.31ms)
+Completed 201 Created in 268ms (Views: 1.3ms | ActiveRecord: 5.9ms | Allocations: 20739)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-28 18:26:06 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 16ms (Views: 0.9ms | ActiveRecord: 0.5ms | Allocations: 855)
+
+
+Started POST "/review" for 127.0.0.1 at 2023-04-28 18:28:19 +0300
+  
+ActionController::RoutingError (uninitialized constant ReviewController
+Did you mean?  ReviewsController):
+  
+Started POST "/review" for 127.0.0.1 at 2023-04-28 18:28:31 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "review"=>{"rating"=>"5", "comment"=>"very good application"}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007fc3a005d578>, params: {"comment"=>"very good application", "rating"=>"5", "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application"}} }[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 422 Unprocessable Entity in 37ms (Views: 0.7ms | ActiveRecord: 1.5ms | Allocations: 20661)
+
+
+Started POST "/review" for 127.0.0.1 at 2023-04-28 18:28:46 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "user_id"=>1, "review"=>{"rating"=>"5", "comment"=>"very good application", "user_id"=>1}}
+[31mUnpermitted parameters: :user_id, :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007fc3940d34c8>, params: {"comment"=>"very good application", "rating"=>"5", "user_id"=>1, "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application", "user_id"=>1}} }[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 931)
+
+
+Started POST "/login" for 127.0.0.1 at 2023-04-28 18:29:00 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 0.9ms | Allocations: 2600)
+
+
+Started POST "/review" for 127.0.0.1 at 2023-04-28 18:29:03 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "user_id"=>1, "review"=>{"rating"=>"5", "comment"=>"very good application", "user_id"=>1}}
+[31mUnpermitted parameters: :user_id, :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007fc3a4691ad0>, params: {"comment"=>"very good application", "rating"=>"5", "user_id"=>1, "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application", "user_id"=>1}} }[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 930)
+
+
+Started POST "/review" for 127.0.0.1 at 2023-04-28 18:32:19 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "user_id"=>1, "review"=>{"rating"=>"5", "comment"=>"very good application", "user_id"=>1}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007fc3a020f330>, params: {"comment"=>"very good application", "rating"=>"5", "user_id"=>1, "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application", "user_id"=>1}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mReview Create (0.6ms)[0m  [1m[32mINSERT INTO "reviews" ("rating", "comment", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["rating", 5], ["comment", "very good application"], ["user_id", 1], ["created_at", "2023-04-28 15:32:19.799765"], ["updated_at", "2023-04-28 15:32:19.799765"]]
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.6ms)
+Completed 200 OK in 48ms (Views: 2.1ms | ActiveRecord: 9.0ms | Allocations: 8703)
+
+
+Started POST "/login" for ::1 at 2023-04-28 22:27:11 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.67ms)
+Completed 200 OK in 12ms (Views: 1.8ms | ActiveRecord: 1.9ms | Allocations: 907)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 22:27:12 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.57ms)
+Completed 200 OK in 6899ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 54193)
+
+
+Started POST "/login" for ::1 at 2023-04-28 22:32:28 +0300
+Processing by SessionController#create as */*
+  Parameters: {"email"=>"rich@gmail.com", "password"=>"[FILTERED]", "session"=>{"email"=>"rich@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "rich@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/session_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 743)
+
+
+Started GET "/scrape" for ::1 at 2023-04-28 22:32:28 +0300
+Processing by ScraperController#index as */*
+Started DELETE "/logout" for 127.0.0.1 at 2023-04-28 22:32:35 +0300
+Processing by SessionController#destroy as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 101)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.36ms)
+Completed 200 OK in 6896ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 40322)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20230428145058)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mDROP TABLE "reviews"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20230428145058"]]
+  [1m[36mTRANSACTION (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20230428145058)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "rating" integer, "comment" varchar, "user_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230428145058"]]
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/review" for 127.0.0.1 at 2023-04-29 11:52:07 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "review"=>{"rating"=>"5", "comment"=>"very good application"}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007feafc684d88>, params: {"comment"=>"very good application", "rating"=>"5", "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application"}} }[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.08ms)
+Completed 422 Unprocessable Entity in 83ms (Views: 1.9ms | ActiveRecord: 0.6ms | Allocations: 43265)
+
+
+Started POST "/review" for 127.0.0.1 at 2023-04-29 11:52:26 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "review"=>{"rating"=>"5", "comment"=>"very good application"}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007feb00056250>, params: {"comment"=>"very good application", "rating"=>"5", "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application"}} }[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 422 Unprocessable Entity in 10ms (Views: 0.9ms | ActiveRecord: 1.0ms | Allocations: 4032)
+
+
+Started POST "/review" for 127.0.0.1 at 2023-04-29 11:53:28 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"comment"=>"very good application", "rating"=>"5", "review"=>{"rating"=>"5", "comment"=>"very good application"}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007feaf8060550>, params: {"comment"=>"very good application", "rating"=>"5", "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>"5", "comment"=>"very good application"}} }[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("rating", "comment", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["rating", 5], ["comment", "very good application"], ["user_id", nil], ["created_at", "2023-04-29 08:53:28.701451"], ["updated_at", "2023-04-29 08:53:28.701451"]]
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (7.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.35ms)
+Completed 200 OK in 16ms (Views: 1.1ms | ActiveRecord: 8.8ms | Allocations: 3528)
+
+
+Started POST "/reviews" for 127.0.0.1 at 2023-04-29 11:57:52 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"rating"=>2, "comment"=>"needs more work", "review"=>{"rating"=>2, "comment"=>"needs more work"}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007feafc9ee1b8>, params: {"rating"=>2, "comment"=>"needs more work", "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>2, "comment"=>"needs more work"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mReview Create (0.3ms)[0m  [1m[32mINSERT INTO "reviews" ("rating", "comment", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["rating", 2], ["comment", "needs more work"], ["user_id", nil], ["created_at", "2023-04-29 08:57:52.312032"], ["updated_at", "2023-04-29 08:57:52.312032"]]
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 4.1ms | Allocations: 1945)
+
+
+Started POST "/reviews" for 127.0.0.1 at 2023-04-29 11:58:56 +0300
+Processing by ReviewsController#create as */*
+  Parameters: {"rating"=>4, "comment"=>"very good app helped alot", "review"=>{"rating"=>4, "comment"=>"very good app helped alot"}}
+[31mUnpermitted parameter: :review. Context: { controller: ReviewsController, action: create, request: #<ActionDispatch::Request:0x00007feb04014298>, params: {"rating"=>4, "comment"=>"very good app helped alot", "controller"=>"reviews", "action"=>"create", "review"=>{"rating"=>4, "comment"=>"very good app helped alot"}} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mReview Create (0.6ms)[0m  [1m[32mINSERT INTO "reviews" ("rating", "comment", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["rating", 4], ["comment", "very good app helped alot"], ["user_id", nil], ["created_at", "2023-04-29 08:58:56.923628"], ["updated_at", "2023-04-29 08:58:56.923628"]]
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/reviews_controller.rb:3:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 200 OK in 13ms (Views: 0.7ms | ActiveRecord: 4.5ms | Allocations: 1963)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:17:20 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (17.36ms)
+Completed 200 OK in 3409ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 75956)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:17:31 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (11.15ms)
+Completed 200 OK in 2872ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 39754)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:17:38 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (2.6ms)
+Completed 200 OK in 4176ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 39488)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:19:46 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 1861ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 28178)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:20:04 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 486ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 11689)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:20:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.32ms)
+Completed 200 OK in 3067ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 39912)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:20:31 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.18ms)
+Completed 200 OK in 4016ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 39588)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:21:23 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.17ms)
+Completed 200 OK in 5090ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 39617)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:22:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 528ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 11703)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:23:05 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (6.28ms)
+Completed 200 OK in 3000ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 39930)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:23:08 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 422 Unprocessable Entity in 2617ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 28275)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:23:10 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (7.95ms)
+Completed 200 OK in 3426ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 39870)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:24:10 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.06ms)
+Completed 200 OK in 3283ms (Views: 5.5ms | Allocations: 39415)
+
+
+Started GET "/scrape" for ::1 at 2023-05-01 11:24:34 +0300
+Processing by ScraperController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 1951ms (Views: 1.9ms | Allocations: 28173)
+
+

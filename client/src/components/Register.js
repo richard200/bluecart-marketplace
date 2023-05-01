@@ -139,6 +139,7 @@ function Signup() {
             className="form-control"
             id="username"
             value={username}
+            placeholder="Enter your username"
             onChange={(e) => setUsername(e.target.value)}
             required
           />
@@ -150,6 +151,7 @@ function Signup() {
             className="form-control"
             id="email"
             value={email}
+            placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
             required
           />
@@ -161,6 +163,7 @@ function Signup() {
             className="form-control"
             id="password"
             value={password}
+            placeholder="Enter your password..."
             onChange={(e) => setPassword(e.target.value)}
             required
           />

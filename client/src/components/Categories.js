@@ -117,6 +117,8 @@
 // Import React and useEffect hooks
 import React, { useEffect } from "react";
 import { useState, } from 'react';
+import "../App.css"
+
 
 import styled from "styled-components";
 
@@ -215,7 +217,7 @@ function Categories() {
 
   return (
     <div>
-      <h1>Games</h1>
+      <h2>Games</h2>
       <div>
         <label>Search by title:</label>
         <input
@@ -224,7 +226,7 @@ function Categories() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
       </div>
-      <div>
+      {/* <div>
         <label>Select a category:</label>
         <select
           value={selectedCategory}
@@ -236,7 +238,7 @@ function Categories() {
             </option>
           ))}
         </select>
-      </div>
+      </div> */}
       <div>
         <label>Select a store:</label>
         <select
