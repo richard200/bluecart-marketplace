@@ -1,8 +1,13 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  
     background-color: #eee2dc;
+    box-sizing: inherit;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    margin: 0px;
+    padding: 0;
+    padding-left: 0px !important;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
   }
   
   /* Define the styles for the home-page class */

@@ -118,6 +118,7 @@
 import React, { useEffect } from "react";
 import { useState, } from 'react';
 import "../App.css"
+import ScrollToTop from "react-scroll-to-top"
 
 
 import styled from "styled-components";
@@ -217,6 +218,8 @@ function Categories() {
 
   return (
     <div>
+      <br></br>
+      <br></br>
       <h2>Games</h2>
       <div>
         <label>Search by title:</label>
@@ -265,6 +268,8 @@ function Categories() {
           </Card>
         ))}
       </CardContainer>
+
+      <ScrollToTop smooth style={{ backgroundColor: "orange", borderRadius: "50%", bottom: "20px", right: "20px" }} />
     </div>
   );
 }
