@@ -1,0 +1,22 @@
+name: BlueCartMarketCI
+
+# conditions that trigger this action
+on:
+  workflow_dispatch:
+  push:
+    branches: [richard]
+  pull_request:
+    branches: [richard]
+
+# functions that will run within the workflow
+jobs:
+  rspec:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7.4'
+      - run: cd api && bundle install
+     
+    
