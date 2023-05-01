@@ -183,11 +183,12 @@
 .search input {
   width: 700px;
   height: 40px;
-  border: none;
+/*   border: none; */
   text-align: center;
   justify-content: center;
   border-radius: 20px;
-  padding: 10px;
+  border-color: #333;
+  padding: 6px 12px;
   font-size: 18px;
 }
 
