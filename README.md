@@ -83,7 +83,7 @@ You can now access the app at http://localhost:4000.
 
 
 # Links
-[Deployed Site] (https://bluecart-marketplace-backend.onrender.com/)
+[Deployed Backend Site] (https://bluecart-marketplace-backend.onrender.com/)
 
 # Authors
 * Makena].(https://github.com/MakenaG)
