@@ -125,6 +125,7 @@
 
 /* home page styles */
 .home-page {
+  padding-top: 100px;
   display: flex;
 }
 
@@ -148,6 +149,7 @@
   
 }
 .home-page .main h1 {
+  margin: 10px;
   text-align: center;
   margin-bottom: 20px;
   font-size: 24px;
