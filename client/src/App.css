@@ -88,16 +88,39 @@
   border: none;
   border-radius: 5px;
 }
+.dropdown {
+  position: relative;
+}
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  z-index: 1;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  list-style: none;
+  background-color: #f0f0f0;
 }
 
+.dropdown-item {
+  padding: 10px;
+}
+
+.dropdown-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-link:hover {
+  background-color: #e0e0e0;
+}
+
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 
 /* home page styles */
 .home-page {
@@ -297,7 +320,7 @@ input[type=number], select {
 input[type=text], select {
   border-radius: 50px;
   margin: 20px;
-  padding: 0px;
+  padding: 10px;
   display:inline-block ;
   margin-top: 10px;
   width: 500px;
