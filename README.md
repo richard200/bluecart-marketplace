@@ -1,3 +1,4 @@
+! [alt text] (![bluecart](https://user-images.githubusercontent.com/91524542/235576480-add4379b-464f-4eda-825a-6b3971cf1567.png))
 # Bluecart-marketplace
 This's a web application that allows users to compare products from different e-commerce sites and find the best deal based on their preferences. Users can query a product and see the results from various shopping sites, ranked by price. Users can also filter the results by various criteria, such as shipping cost, ratings, quality and more. Users can also see reviews and comments from previous buyers for each product. Users can use the service without logging in or creating an account, but registered users can also save their search history for future reference.
 
